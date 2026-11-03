@@ -2,6 +2,10 @@
 
 서울·경기·온라인에서 참가 가능한 해커톤, 부트캠프, 공모전을 단계별로 탐색하는 정적 웹페이지입니다.
 
+**[웹페이지 바로 열기](https://raw.githack.com/minuk1749/it-opportunity-board/main/index.html)**
+
+현재 접속 링크는 GitHub 소스를 표시하는 githack 미리보기입니다. 처음 열 때 출처 안내 화면이 나오면 이 저장소의 주소를 확인할 수 있습니다. GitHub Pages는 아래 설정을 활성화하면 사용할 수 있습니다.
+
 ## 기능
 
 - 종류 선택 → 분야 선택 → 공고 목록 → 상세 정보
@@ -20,6 +24,8 @@ Node.js 20 이상에서 `npm start`를 실행하고 http://127.0.0.1:4317 을 �
 ## GitHub Pages
 
 저장소 Settings → Pages → Deploy from a branch → main / (root)를 선택합니다. 프레임워크 빌드나 서버가 필요 없습니다. `.nojekyll`로 파일을 그대로 게시합니다.
+
+[이 저장소의 Pages 설정](https://github.com/minuk1749/it-opportunity-board/settings/pages)에서 설정할 수 있습니다.
 
 ## 공고 업데이트
 
