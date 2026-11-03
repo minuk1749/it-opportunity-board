@@ -3,5 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node serve.mjs", "check": "node --check app.js && node check.mjs" }
+  "scripts": { "start": "node serve.mjs", "check": "node --check app.js && node check.mjs && node --test automation.test.mjs" }
 }

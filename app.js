@@ -1,3 +1,4 @@
+import {validateCatalog,nextScheduledRun,updateIsOverdue,loadCatalog} from './catalog-utils.js';
 const $ = (s, root = document) => root.querySelector(s);
 const escape = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const categories = {
@@ -9,14 +10,16 @@ const fields={ai:{name:'AI · 데이터',icon:'✳',desc:'생성형 AI, 에이�
 const modes={all:'전체 방식',online:'온라인',offline:'오프라인',hybrid:'온·오프라인'};
 const main=$('#main'),dialog=$('#detail');
 let catalog, saved=new Set(), filters={query:'',mode:'all',uncertain:false,closed:false,sort:'deadline'}, activeId=null, toastTimer;
+let refreshing=false, sourceFallback=false, refreshFailed=false, lastFetchAt=0;
 try{const stored=JSON.parse(localStorage.getItem('next-opportunity-saved')||'[]');if(Array.isArray(stored))saved=new Set(stored.filter(x=>typeof x==='string'));}catch{}
 const today = () => new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date());
 const days = date => Math.round((Date.parse(date+'T00:00:00+09:00')-Date.parse(today()+'T00:00:00+09:00'))/86400000);
 const deadlineLabel = item => {
+  if(item.status==='closed'||item.status==='cancelled')return {text:item.status==='cancelled'?'행사 취소':'모집 종료',class:'closed',closed:true};
   let d=days(item.deadline);
   if(d<0)return {text:'마감일 지남',class:'closed',closed:true};
   if(d===0){const t=item.deadlineTime.match(/^(\d{1,2}):(\d{2})/);if(t&&Date.now()>=Date.parse(item.deadline+'T00:00:00+09:00')+(Number(t[1])*60+Number(t[2]))*60000)return{text:'마감 시간 지남',class:'closed',closed:true};}
-  return {text:d===0?'오늘 마감':d===1?'내일 마감':`D-${d}`,class:d<=3?'urgent':'new',closed:false};
+  return {text:item.status==='upcoming'?'접수 예정':d===0?'오늘 마감':d===1?'내일 마감':`D-${d}`,class:d<=3?'urgent':'new',closed:false};
 };
 const dateLabel = d => `${Number(d.slice(5,7))}.${d.slice(8,10)}`;
 const badge = item => {const b=deadlineLabel(item);return `<span class="pill ${b.class}">${b.text}</span>`;};
@@ -28,12 +31,40 @@ const note = () => `<div class="notice"><span aria-hidden="true">ⓘ</span><span
 function route(){const parts=location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);return {section:parts[0]||'home',field:parts[1]||null};}
 function render(){
   if(!catalog)return;
-  const r=route();updateSavedCount();
+  const r=route();updateSavedCount();renderUpdateStatus();
   if(r.section==='home')renderHome();
   else if(categories[r.section]&&!r.field)renderFields(r.section);
   else if(categories[r.section]||['all','saved'].includes(r.section))renderResults(r);
   else{location.hash='#/';return;}
   document.title=(r.section==='home'?'다음 기회 — IT 활동 탐색':`${categories[r.section]?.name|| (r.section==='saved'?'저장한 기회':'전체 공고')} | 다음 기회`);
+}
+function renderUpdateStatus(){
+  const panel=$('#update-status');if(!panel||!catalog)return;
+  const next=nextScheduledRun(catalog.automation);
+  const format=date=>new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}).format(date);
+  const overdue=updateIsOverdue(catalog),latest=catalog.updateHistory?.[0];
+  const state=refreshFailed?'새 자료 연결 확인 필요':overdue?'자동 갱신 확인 필요':catalog.automation?.enabled?'3일마다 자동 조사':'수동 갱신';
+  panel.hidden=false;
+  panel.innerHTML=`<div class="update-status-main"><div><span class="update-tag${overdue||refreshFailed?' delayed':''}">↻ ${state}</span><span class="update-date">마지막 조사 <strong>${escape(catalog.verifiedAt)}</strong></span>${next?`<span class="update-date">다음 예정 <strong>${escape(format(next))} 전후</strong> · 한국시간</span>`:''}</div><button class="refresh-data" data-refresh ${refreshing?'disabled':''}>${refreshing?'불러오는 중…':'최신 목록 불러오기 ↻'}</button></div><p class="update-description">${refreshFailed?'연결에 실패해 마지막으로 불러온 자료를 유지하고 있어요.':overdue?'예정 시각 이후 조사 결과가 갱신되지 않았어요. 아래 마지막 조사일을 기준으로 확인하세요.':sourceFallback?'최신 저장소에 연결하지 못해 사이트에 보관된 자료를 표시하고 있어요.':'새 공고·조건 변경·모집 종료를 조사하고 사이트에 반영해요. 열어둔 화면도 5분마다 새 자료를 확인해요.'}</p>${latest?`<details class="update-history"><summary>최근 갱신 기록 · ${escape(latest.date)}</summary><ul>${catalog.updateHistory.slice(0,5).map(h=>`<li><strong>${escape(h.date)}</strong> ${escape(h.summary)}</li>`).join('')}</ul></details>`:''}`;
+  $('#footer-note').textContent=`마지막 조사 ${catalog.verifiedAt} · 공고 ${catalog.items.length}개 · ${catalog.automation?.enabled?'3일마다 자동 조사 · 한국시간 오전 9시 전후':'수동 갱신'}`;
+}
+async function refreshCatalog(manual=false){
+  if(refreshing||(!manual&&(document.hidden||dialog.open||document.activeElement?.id==='search'||Date.now()-lastFetchAt<60000)))return;
+  refreshing=true;renderUpdateStatus();
+  try{
+    const embedded=$('#embedded-catalog');
+    const result=embedded?{catalog:validateCatalog(JSON.parse(embedded.textContent)),fallback:false}:await loadCatalog();
+    if(result.fallback&&catalog)throw new Error('Latest repository data unavailable; keeping current data');
+    const changed=JSON.stringify(catalog)!==JSON.stringify(result.catalog);
+    catalog=result.catalog;sourceFallback=result.fallback;refreshFailed=false;lastFetchAt=Date.now();
+    if(changed)render();
+    if(manual)showToast(sourceFallback?'보관된 자료를 불러왔어요. 조사일을 확인해 주세요.':changed?'새 공고 자료를 반영했어요.':'현재 게시된 최신 자료예요.');
+  }catch(error){
+    refreshFailed=true;
+    if(!catalog){main.innerHTML='<div class="empty"><h1>목록을 불러오지 못했어요.</h1><p>연결을 확인한 뒤 다시 시도해 주세요.</p><button data-refresh>다시 시도</button></div>';}
+    if(manual)showToast('자료를 갱신하지 못했어요. 기존 목록을 유지해요.');
+    console.warn('Catalog refresh failed',error.message);
+  }finally{refreshing=false;renderUpdateStatus();}
 }
 function renderHome(){
  const open=catalog.items.filter(x=>!deadlineLabel(x).closed);
@@ -64,10 +95,11 @@ function updateDetailSave(id){const b=$('[data-detail-save]',dialog);if(b){b.tex
 function showToast(s){clearTimeout(toastTimer);$('#toast').textContent=s;$('#toast').classList.add('show');toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),2400);}
 function openDetail(id){const x=catalog.items.find(x=>x.id===id);if(!x)return;activeId=id;
  const row=(label,value,full=false)=>`<div class="detail-item${full?' full':''}"><dt>${label}</dt><dd>${escape(value)}</dd></div>`;
- $('#detail-body').innerHTML=`<div class="detail-content"><div class="detail-top"><div class="card-top" style="margin:0;padding:0">${badge(x)}<span class="pill">${categories[x.category].name}</span>${x.uncertain?'<span class="pill caution">조건 확인</span>':''}</div><button class="close-btn" data-close aria-label="상세 정보 닫기" autofocus>×</button></div><h2 id="detail-title">${escape(x.name)}</h2><p class="detail-summary">${escape(x.summary)}</p><dl class="detail-grid">${row('신청 · 제출 마감',`${x.deadline} · ${x.deadlineTime}`)}${row('진행 방식 · 장소',x.location)}${row('참가 자격',x.eligibility,true)}${row('진행 일정',x.period)}${row('팀 구성',x.team)}${row('비용 · 지원 조건',x.cost,true)}</dl>${x.caution?`<div class="notice"><span aria-hidden="true">ⓘ</span><span><strong>참가 전 확인</strong><br>${escape(x.caution)}</span></div>`:''}<div class="detail-actions"><a class="primary-link" href="${escape(x.sources[0].url)}" target="_blank" rel="noopener noreferrer">공고 · 신청 페이지 <span aria-hidden="true">↗</span></a><button class="detail-save" data-detail-save="${x.id}" aria-pressed="${saved.has(x.id)}">${saved.has(x.id)?'★ 저장됨':'☆ 저장하기'}</button></div><div class="source-links">${x.sources.map((s,i)=>`<a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">출처 ${i+1} · ${escape(s.label)} ↗</a>`).join('')}</div><p class="detail-foot">${catalog.verifiedAt} 조사 내용 기준 · 시각 미공개 마감은 해당 날짜로 표시됩니다.<br>조기 마감과 세부 자격 변경은 원문에서 확인해 주세요.</p></div>`;
+ $('#detail-body').innerHTML=`<div class="detail-content"><div class="detail-top"><div class="card-top" style="margin:0;padding:0">${badge(x)}<span class="pill">${categories[x.category].name}</span>${x.uncertain?'<span class="pill caution">조건 확인</span>':''}</div><button class="close-btn" data-close aria-label="상세 정보 닫기" autofocus>×</button></div><h2 id="detail-title">${escape(x.name)}</h2><p class="detail-summary">${escape(x.summary)}</p><dl class="detail-grid">${row('신청 · 제출 마감',`${x.deadline} · ${x.deadlineTime}`)}${row('진행 방식 · 장소',x.location)}${row('참가 자격',x.eligibility,true)}${row('진행 일정',x.period)}${row('팀 구성',x.team)}${row('비용 · 지원 조건',x.cost,true)}</dl>${x.caution?`<div class="notice"><span aria-hidden="true">ⓘ</span><span><strong>참가 전 확인</strong><br>${escape(x.caution)}</span></div>`:''}<div class="detail-actions"><a class="primary-link" href="${escape(x.sources[0].url)}" target="_blank" rel="noopener noreferrer">공고 · 신청 페이지 <span aria-hidden="true">↗</span></a><button class="detail-save" data-detail-save="${x.id}" aria-pressed="${saved.has(x.id)}">${saved.has(x.id)?'★ 저장됨':'☆ 저장하기'}</button></div><div class="source-links">${x.sources.map((s,i)=>`<a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">출처 ${i+1} · ${escape(s.label)} ↗</a>`).join('')}</div><p class="detail-foot">${x.lastVerifiedAt||catalog.verifiedAt} 항목 조사 기준 · 시각 미공개 마감은 해당 날짜로 표시됩니다.<br>조기 마감과 세부 자격 변경은 원문에서 확인해 주세요.</p></div>`;
  if(!dialog.open)dialog.showModal();dialog.scrollTop=0;
 }
 document.addEventListener('click',e=>{const target=e.target.closest('button');if(!target)return;
+ if(target.hasAttribute('data-refresh'))refreshCatalog(true);
  if(target.dataset.open)openDetail(target.dataset.open);
  if(target.dataset.save)save(target.dataset.save);
  if(target.dataset.detailSave)save(target.dataset.detailSave);
@@ -78,4 +110,6 @@ document.addEventListener('click',e=>{const target=e.target.closest('button');if
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>{activeId=null;});
 window.addEventListener('hashchange',()=>{if(dialog.open)dialog.close();filters={query:'',mode:'all',uncertain:false,closed:false,sort:'deadline'};render();window.scrollTo(0,0);main.focus({preventScroll:true});});
-try{const response=await fetch('./catalog.json',{cache:'no-cache'});if(!response.ok)throw Error('목록을 불러올 수 없습니다.');catalog=await response.json();const ids=new Set(catalog.items.map(x=>x.id));saved=new Set([...saved].filter(id=>ids.has(id)));$('#footer-note').textContent=`수록 기준 ${catalog.verifiedAt} · 공고 ${catalog.items.length}개 · 데이터 업데이트는 게시 시 반영됩니다.`;render();}catch(error){main.innerHTML='<div class="empty"><h1>목록을 불러오지 못했어요.</h1><p>네트워크 연결을 확인하고 페이지를 새로고침해 주세요.</p><button id="reload">다시 시도</button></div>';$('#reload').onclick=()=>location.reload();console.error(error);}
+await refreshCatalog(true);
+setInterval(()=>refreshCatalog(),5*60*1000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCatalog();});
