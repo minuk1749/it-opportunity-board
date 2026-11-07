@@ -74,3 +74,8 @@ Count meaningful event changes, not mere timestamp changes. Top-level `note` sho
 The stable preview is https://raw.githack.com/minuk1749/it-opportunity-board/main/index.html . The frontend fetches the public GitHub `main/catalog.json` directly first, with a same-site fallback. It checks for new data when loaded, every five minutes while visible and not editing/searching, and when the tab becomes visible again. Source-proxy caches can briefly delay code changes. Routine catalog updates require no site rebuild. If GitHub Pages is enabled later, the same data source works there.
 
 The displayed next time is an approximate schedule derived from the saved three-day anchor, not proof that a background run succeeded. A missed update is flagged after 24 hours. Preserve the last good data on malformed JSON or network failure. Do not modify site code or scheduling configuration during ordinary research runs.
+
+# 채용 데이터와의 경계
+
+산업기능요원 채용 화면은 별도의 careers.json과 CAREER-UPDATES.md를 사용합니다. 이 문서의 행사 조사는 catalog.json만 갱신하고 채용 회사·기록·일정은 수정하지 않습니다. 두 데이터 파일은 같은 사이트에서 각각의 조사 주기로 불러옵니다.
+

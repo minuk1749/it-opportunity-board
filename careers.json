@@ -1,0 +1,2171 @@
+{
+  "revision": 1,
+  "updatedAt": "2026-11-02T09:26:07+09:00",
+  "lastResearchDate": "2026-11-02",
+  "importedAt": "2026-10-28",
+  "coverage": "11/2 조사까지 누적. 기존 76개사·신규 지정 후보 42곳·과거 기록은 유지하고 새 회사 2곳을 추가했습니다. 전체 회사의 당일 재검증을 뜻하지 않습니다. 최신 원문 확인일은 회사별 checked를 보세요. ① 신규 편입 모집 ② 지정업체 일반 채용·편입 협의 ③ 신규 지정 후보를 병역·편입 항목에서 구분합니다. ③은 최종 지정 확정 아님. 휴학생·신입 지원 조건과 필수요건 미충족 여부를 구분합니다.",
+  "companies": [
+    {
+      "id": "mg",
+      "name": "엠지솔루션스",
+      "region": "서울 마포",
+      "role": "Moti Physio 서버 개발",
+      "stack": "스택 미표시",
+      "status": "조건 확인",
+      "checked": "2026-10-26",
+      "eligibility": "신입 1명 · 학력·경력 무관. 정보처리기사 우대. 휴학 별도 제한 미표시.",
+      "military": "박람회 보충역 신입 모집. 지정 원장 대조·실제 편입 시점 미확인.",
+      "deadline": "박람회 지원중 · 개별 마감일 미표시",
+      "note": "동교로23길 10. 기술 스택과 서버 운영 경험 요구 수준 확인. 연봉 2,600만~2,800만원. 11/2 박람회 원문 접근 실패. 이전 확인일을 유지하며 오늘 접수 가능 여부는 미확인.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "보충역 채용박람회",
+          "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=247"
+        }
+      ]
+    },
+    {
+      "id": "gmd",
+      "name": "지엠디소프트",
+      "region": "판교",
+      "role": "디지털 포렌식·보안기술 연구",
+      "stack": "OS · 커널 · 보안",
+      "status": "조건 확인",
+      "checked": "2026-11-02",
+      "eligibility": "신입 1명 · 학력·경력·자격증 무관. 휴학 별도 제한 미표시.",
+      "military": "박람회 보충역 신입 모집. 지정 원장·편입 시점 미확인.",
+      "deadline": "박람회 지원하기 안내 확인(11/2), 개별 절대 마감일 없음 / 잡코리아 별도 경로 마감 기록 유지.",
+      "note": "판교역로 235 H스퀘어 N동 2층. OS·보안 및 실무테스트 준비 필요. 연봉 3,400만원 이상.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "보충역 채용박람회",
+          "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=335"
+        }
+      ]
+    },
+    {
+      "id": "skycom",
+      "name": "스카이컴",
+      "region": "서울 구로",
+      "role": "웹·시스템 개발 / SE·SM",
+      "stack": "JSP · Spring Boot · C/C++ · MariaDB · Oracle",
+      "status": "예외 문의",
+      "checked": "2026-10-26",
+      "eligibility": "신입 · 자격증 무관. 대졸 이상 필수, 졸업·졸업예정증명서 제출.",
+      "military": "박람회 보충역 신입 모집. 학력 예외 근거 없음.",
+      "deadline": "박람회 지원중 · 개별 마감일 미표시",
+      "note": "디지털로32길 30 808호. 현재 학력 미충족. 연봉 2,600만~2,800만원.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=246"
+        }
+      ]
+    },
+    {
+      "id": "jeonneung",
+      "name": "전능아이티",
+      "region": "서울 강남",
+      "role": "백엔드 개발",
+      "stack": "Spring · NestJS · TypeScript",
+      "status": "지원 검토",
+      "checked": "2026-11-02",
+      "eligibility": "신입·컴퓨터공학 관련 전공. 병역일터 학력: 대학교 휴학 이상 → 현재 학력 조건에 맞음. 자격증 필수 표기 없음.",
+      "military": "① 병역일터 정보처리 지정업체·보충역 신입·전직자 채용 아니오. 입사 2개월 후 편입 명시.",
+      "deadline": "병역일터 동일 공고 2026-10-31 → 2026-11-30 연장 확인. 원티드 상시 표기는 10/26 기록이며 이번 접근 403.",
+      "note": "역삼로3길 11 5층. Spring/Express/NestJS·React/TypeScript. 온라인 코딩테스트 후 오프라인 코딩테스트·임원면접. 연봉 3,400만원 이상. 조회 경로별 과거 10/31 자료가 남아 있으나 최신 상세공고(11/2 조회)는 11/30.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.wanted.co.kr/wd/75585"
+        },
+        {
+          "label": "병역일터 · 11/30",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001497289&menu_id=m_m7_1"
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "name": "스마트동스쿨",
+      "region": "서울 마포",
+      "role": "웹·앱 개발",
+      "stack": "PHP · Node.js · React",
+      "status": "지원 검토",
+      "checked": "2026-11-02",
+      "eligibility": "병역일터 신입/경력·고졸 이상. 현재 학력 충족, 자격증 필수 표기 없음. 잡코리아 학력무관은 10/26 확인 기록.",
+      "military": "① 병역일터 정보처리 지정업체·보충역, 전직자 채용 아니오. 신규 편입 시점 별도 확인.",
+      "deadline": "병역일터 2026-11-30 재확인 / 잡코리아 2026-11-18은 이전 경로 기록 보존.",
+      "note": "마포구 매봉산로 37 DMC산학협력센터 1005호. 원문 수습기간 3개월 이상. PHP·Node.js·Flutter 전환 학습 필요. 실제 계약·편입 시점 확인.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50195481"
+        },
+        {
+          "label": "병역일터 · 11/30",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001542898&menu_id=m_m7_1"
+        }
+      ]
+    },
+    {
+      "id": "awesome",
+      "name": "어썸피스",
+      "region": "서울 · 상세주소 기록 없음",
+      "role": "게임 클라이언트·서버",
+      "stack": "Java · C#",
+      "status": "조건 확인",
+      "checked": "2026-11-02",
+      "eligibility": "신입 모집. 게임 기초·자료구조·알고리즘 요구.",
+      "military": "공식 공고에 보충역 신규 명시.",
+      "deadline": "공식 신입·보충역 신규 공고와 이메일 지원 안내 게시 유지(11/2 확인), 절대 마감일 미표시 / 박람회 마감 기록 유지.",
+      "note": "회사 전체 종료로 볼 수 없음. 공식 경로 접수 가능 여부 확인.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://recruit.awesomepiece.com/6438dd11-a1ac-4d35-9c9d-41167b7e0f3e"
+        }
+      ]
+    },
+    {
+      "id": "fetching",
+      "name": "페칭",
+      "region": "서울 서초",
+      "role": "백엔드 개발",
+      "stack": "Node.js · NestJS / Java·Spring 역량 인정",
+      "status": "조건 확인",
+      "checked": "2026-10-26",
+      "eligibility": "무경력 신입 가능. 휴학생 수용 별도 확인.",
+      "military": "보충역 신규 편입·3개월 수습계약 중 편입 시점 미확인.",
+      "deadline": "랠릿 지원하기 · 채용 시 마감",
+      "note": "사평대로55길 33 301호. Node.js/NestJS 전환 후보. 11/2 랠릿 원문 접근 실패. 10/26 조건을 현재 접수 확정으로 갱신하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.rallit.com/positions/3063"
+        }
+      ]
+    },
+    {
+      "id": "nudge",
+      "name": "넛지헬스케어",
+      "region": "서울 강남",
+      "role": "캐시워크 백엔드 채용전환형 인턴",
+      "stack": "백엔드 · 상세 스택 미기록",
+      "status": "예외 문의",
+      "checked": "2026-11-02",
+      "eligibility": "경력무관 · 3개월 인턴. 대졸 이상·졸업예정자 가능 → 현재 학력 미충족.",
+      "military": "② 지정업체 일반 인턴 후보. 기존 보충역 백엔드 병역일터 경로는 마감 확인. 일반 인턴의 신규 편입 연계는 미확인.",
+      "deadline": "병역일터 백엔드: 2026-10-29 및 원문 마감 문구 확인. 사람인 병역특례 10/20 마감 기록 유지. 일반 인턴 잡코리아 12/11은 10/26 확인 기록(이번 접근 실패).",
+      "note": "역삼로1길 8. 대졸·졸업예정 조건 때문에 현 학력 미충족. 일반 인턴의 학력 예외·편입 연계 모두 확인 필요. 일부 검색 목록의 12/22 별도 경로는 상세 미검증으로 채택하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50148837"
+        },
+        {
+          "label": "사람인 병역특례 · 마감",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=54810640"
+        },
+        {
+          "label": "병역일터 백엔드 · 마감",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001470092&menu_id=m_m7_1"
+        }
+      ]
+    },
+    {
+      "id": "epapyrus",
+      "name": "이파피루스",
+      "region": "판교",
+      "role": "문서 뷰어 프론트엔드",
+      "stack": "Angular · TypeScript · JavaScript",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "학력무관. 기본 경력 4~8년, 보충역 경력 완화 명시. 무경력 적용은 미확인.",
+      "military": "보충역 가능 표기. 신규 편입·휴학생 수용·지정 원장 대조 미확인.",
+      "deadline": "사람인 원문 2026-10-31 23:59 → 기준일 현재 기한 경과. 잡코리아 10/31은 이전 기록.",
+      "note": "판교역로230 삼환하이펙스 B동 408호. 이번 원문은 과거 D-2 캐시가 남아 있어 상대 날짜 대신 절대 기한으로 판단. 무경력까지 경력 완화되는지 미확인. 연장·재공고 원문 확보 전 접수 가능 확정 아님.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55171531"
+        }
+      ]
+    },
+    {
+      "id": "eactive",
+      "name": "이액티브",
+      "region": "서울 영등포",
+      "role": "Java 개발·시스템 연계·Open API",
+      "stack": "Java",
+      "status": "예외 문의",
+      "checked": "2026-10-21",
+      "eligibility": "신입 1명 · 자격증 무관. 대졸 이상 필수 → 학력 미충족.",
+      "military": "박람회 보충역 신입. 전직자 채용 없음.",
+      "deadline": "개별 마감일 미표시 · 실제 접수 확인 필요",
+      "note": "양평로 157. 휴학생 학력 예외 근거 없음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=312"
+        }
+      ]
+    },
+    {
+      "id": "poly",
+      "name": "폴리큐브",
+      "region": "서울 강남",
+      "role": "웹 백엔드·프론트",
+      "stack": "Spring Boot · Node.js",
+      "status": "예외 문의",
+      "checked": "2026-11-02",
+      "eligibility": "대학 졸업예정 이상. 5학기 이수 휴학생 수용 문의.",
+      "military": "① 병역일터 정보처리 지정업체·보충역 신입/경력 모집. 단, 학력 예외 문의 후보.",
+      "deadline": "병역일터 웹 개발 동일 공고 2026-10-31 → 2026-11-30 연장.",
+      "note": "근무지: 강남구 테헤란로86길 15 동구빌딩 4층. 대학 졸업예정 이상 조건은 유지되어 현재 학력 미충족. 연장됐어도 적격 확정 아님.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000000435903&menu_id=m_m7_1"
+        }
+      ]
+    },
+    {
+      "id": "aura",
+      "name": "아우라네트웍",
+      "region": "서울 서초",
+      "role": "시스템·네트워크 엔지니어",
+      "stack": "Linux · 가상화 · 네트워크",
+      "status": "원문 재확인",
+      "checked": "2026-10-20",
+      "eligibility": "대학 졸업예정 이상. 현재 학력 미충족.",
+      "military": "보충역 공고 이력.",
+      "deadline": "기록된 기한 2026-10-23 · 경과",
+      "note": "기한 경과에 따른 연장·재공고 여부와 학력 예외 확인.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://iljari.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?byjjeopche_cd=120210036&cygonggo_no=2000001493098"
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "name": "비오시스템즈",
+      "region": "서울 금천",
+      "role": "Java ERP 솔루션 개발·운영·유지보수",
+      "stack": "Java · JSP · MSSQL · Oracle",
+      "status": "지원 검토",
+      "checked": "2026-11-02",
+      "eligibility": "신입. 병역일터 구조화 항목은 대학교 휴학 이상, 본문은 학력무관. 현재 학력은 양쪽 모두 충족. 정보처리산업기사·기사는 우대.",
+      "military": "① 병역일터 정보처리 지정업체, 보충역 신입 1명·전직자 채용 아니오. 실제 편입 시점은 별도 확인.",
+      "deadline": "병역일터 2026-11-30. 잡코리아 별도 경로 2026-10-23~2026-11-22(즉시지원 표시).",
+      "note": "근무지: 금천구 가산디지털1로 128 STX V-TOWER 611호, 공식 회사 소개와 일치. 연봉 3,000만~3,200만원(병역일터). Spring 명시는 없음. JSP·Oracle/MSSQL 적응 및 유지보수 업무 비중 확인. SQLD는 미취득 상태로 판단.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "병역일터 · 11/30",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001531900&menu_id=m_m7_1"
+        },
+        {
+          "label": "잡코리아 · 11/22",
+          "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/50228607?PageGbn=MST&sc=226"
+        },
+        {
+          "label": "공식 회사 주소",
+          "url": "https://www.bosystems.co.kr/about.jsp"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "name": "브랜치앤바운드",
+      "region": "서울 서초",
+      "role": "풀스택 소프트웨어 엔지니어",
+      "stack": "React · TypeScript · Python · Django REST · FastAPI",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "신입/경력·고졸 이상. 설계 의사결정 및 기획부터 운영까지의 프로젝트 경험 요구. 현업 React/Python 2년은 우대.",
+      "military": "① 보충역 채용 이력. 병역일터 정보처리 지정업체 확인. 해당 공고 기한 경과; 새 공고 신규 편입 재확인 필요.",
+      "deadline": "병역일터 원문 2026-10-31 → 기준일 현재 기한 경과. 일반 채용 상시 검색표시는 원문 접수 미검증.",
+      "note": "남부순환로358길 49 자강빌딩 4층. 10/26 미검증이던 상세조건 보완. 기한 경과에 따른 재공고 감시이며 회사 전체 채용 종료로 단정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "병역일터 · 기한 경과",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001516889&menu_id=m_m7_1"
+        }
+      ]
+    },
+    {
+      "id": "astero",
+      "name": "아스테로모프",
+      "region": "서울 관악",
+      "role": "데이터·LLM 파이프라인 개발 / 인프라",
+      "stack": "Rust · Docker · 데이터베이스 · LLM",
+      "status": "원문 재확인",
+      "checked": "2026-11-02",
+      "eligibility": "병역일터 신입/경력·대학교 휴학 이상. Rust 심화 경험은 우대. 일반 채용은 검색상 경력·학력무관이나 상세 검증 미완료.",
+      "military": "① 기존 보충역 공고 기한 경과. 정보처리 지정업체는 병역일터 확인. ② 일반 Software/Infrastructure Engineer 경로의 편입 연계는 별도 협의 필요.",
+      "deadline": "병역일터 2026-11-01 기한 경과. 사람인 검색상 Infrastructure 11/27·Software 채용 시 마감이나 공식 상세 접수 미확인.",
+      "note": "남부순환로1836 호산빌딩 10층. 기존 병역공고는 재공고 감시. 공식 채용 홈페이지는 열리지만 직무 본문을 가져오지 못함. Rust·CS 학습 부담과 일반 입사 후 신규 편입 시점 확인. 유선 연락 금지 공고 문구 존중; 문의·지원 미전송.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "병역일터 · 기한 경과",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001510094&menu_id=m_m7_1"
+        },
+        {
+          "label": "공식 채용",
+          "url": "https://careers.asteromorph.com/"
+        }
+      ]
+    },
+    {
+      "id": "revi",
+      "name": "리비바이오",
+      "region": "서울 강남 · 상세 근무지 재확인 필요",
+      "role": "Node.js 백엔드 산업기능요원",
+      "stack": "Node.js",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "현재 학력·경력 조건 개별 원문 재확인.",
+      "military": "보충역 신규 편입 조건 재확인.",
+      "deadline": "잡코리아 49858053 원문 마감 확인. 검색에 남은 접수기간 2026-08-26~2026-10-25. 원티드 상시 표기는 이번 원문 403으로 미검증.",
+      "note": "이번에 확인한 마감은 잡코리아 경로에 한정. 회사 전체 종료 단정 아님. 학력·휴학생 수용·실제 주소·신규 편입은 재공고 원문에서 확인 필요.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "잡코리아 · 마감",
+          "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/49858053?PageGbn=MST&sc=226"
+        },
+        {
+          "label": "원티드 · 현재 미검증",
+          "url": "https://www.wanted.co.kr/wd/139895"
+        }
+      ]
+    },
+    {
+      "id": "codeit",
+      "name": "코드잇",
+      "region": "서울 중구 을지로",
+      "role": "개발 직무",
+      "stack": "Kotlin · Spring WebFlux · MongoDB · GraphQL · AWS/EKS",
+      "status": "지원 검토",
+      "checked": "2026-11-02",
+      "eligibility": "경력무관. 공식 본문에 졸업·자격증 필수 없음. 현재 스택과 달라도 지원 허용. 자료구조·알고리즘·빠른 학습 역량 요구. 휴학생 개별 수용 확인 필요.",
+      "military": "① 공식 공고에 보충역 신규 편입 및 전직 명시. 병무청 지정 원장 별도 대조는 미완료.",
+      "deadline": "2026-11-02 공식 원문 상시 채용·지원하기 버튼 확인. 절대 마감일 미표시.",
+      "note": "실제 근무지 표기는 을지로, 평일 사무실 출근 필수. 상세 도로명 주소는 공고에 없음. 대면 라이브 코딩 대비 필요. 본문 일반 안내의 병역필·면제 문구가 신규 편입 안내와 함께 있어 적용 범위 확인. 수습 3개월, 편입 시점 별도 확인.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공식 백엔드 채용",
+          "url": "https://careers.codeit.com/c/VhocmZxWah?back=true"
+        }
+      ]
+    },
+    {
+      "id": "dk",
+      "name": "디케이비엠시",
+      "region": "상세 근무지 기록 없음",
+      "role": "기존 IT 후보",
+      "stack": "상세 기록 부족",
+      "status": "원문 재확인",
+      "checked": "2026-10-20",
+      "eligibility": "상세 조건이 전달된 발췌에 없음.",
+      "military": "기존 조사에서 언급된 후보.",
+      "deadline": "최신 접수 상태 미확인",
+      "note": "기존 79곳 목록 전체가 아닌 대화에서 확인되는 이름만 수록.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "purens",
+      "name": "퓨렌스",
+      "region": "상세 근무지 기록 없음",
+      "role": "기존 IT 후보",
+      "stack": "상세 기록 부족",
+      "status": "원문 재확인",
+      "checked": "2026-10-20",
+      "eligibility": "상세 조건이 전달된 발췌에 없음.",
+      "military": "기존 조사에서 언급된 후보.",
+      "deadline": "최신 접수 상태 미확인",
+      "note": "기존 79곳 목록 전체가 아닌 대화에서 확인되는 이름만 수록.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "sentinel",
+      "name": "센티널",
+      "region": "상세 근무지 기록 없음",
+      "role": "기존 IT 후보",
+      "stack": "상세 기록 부족",
+      "status": "원문 재확인",
+      "checked": "2026-10-20",
+      "eligibility": "상세 조건이 전달된 발췌에 없음.",
+      "military": "기존 조사에서 언급된 후보.",
+      "deadline": "최신 접수 상태 미확인",
+      "note": "기존 79곳 목록 전체가 아닌 대화에서 확인되는 이름만 수록.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "nextlearn",
+      "name": "넥스트런",
+      "region": "서울 성북",
+      "role": "재모집 추적",
+      "stack": "Java · Spring",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "공식 안내 연결 접수 재확인",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.nextlearn.kr/en/news/notice/backend-developer-recruit-2026"
+        }
+      ]
+    },
+    {
+      "id": "unique",
+      "name": "유니크굿컴퍼니",
+      "region": "서울 성동",
+      "role": "재모집 추적",
+      "stack": "Spring · Kotlin",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "원티드 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.wanted.co.kr/wd/278859"
+        }
+      ]
+    },
+    {
+      "id": "djay",
+      "name": "드제이",
+      "region": "서울 마포",
+      "role": "재모집 추적",
+      "stack": "Java · Spring",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "2026-07-17 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.jobkorea.co.kr/theme/gi_read/mma_caisbyis/17453"
+        }
+      ]
+    },
+    {
+      "id": "paytalab",
+      "name": "페이타랩·패스오더",
+      "region": "서울 강남",
+      "role": "재모집 추적",
+      "stack": "Java · Kotlin · Spring",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "2026-09-19 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.zighang.com/recruitment/017a6aea-2802-4a73-a2ea-13c98813b34e"
+        }
+      ]
+    },
+    {
+      "id": "buzzni",
+      "name": "버즈니",
+      "region": "서울 관악",
+      "role": "재모집 추적",
+      "stack": "백엔드",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "확인 공고 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "gamen",
+      "name": "게임엔",
+      "region": "서울 강남",
+      "role": "재모집 추적",
+      "stack": "Python · JavaScript",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "2026-09-12 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://job.kosmes.or.kr/cmmn/jopblanc/view.do?JopblancIdx=228866"
+        }
+      ]
+    },
+    {
+      "id": "yolo",
+      "name": "와이오엘오·크로켓",
+      "region": "서울 마포",
+      "role": "재모집 추적",
+      "stack": "Node.js · TypeScript",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "랠릿 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.rallit.com/positions/1039"
+        }
+      ]
+    },
+    {
+      "id": "tickle",
+      "name": "티클",
+      "region": "서울 영등포",
+      "role": "재모집 추적",
+      "stack": "백엔드",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "원티드 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.wanted.co.kr/wd/63780"
+        }
+      ]
+    },
+    {
+      "id": "standby",
+      "name": "스탠바이랩",
+      "region": "서울 강남",
+      "role": "재모집 추적",
+      "stack": "Java · JavaScript",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "오래된 공고 · 재공고 확인",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://www.wanted.co.kr/wd/227156"
+        }
+      ]
+    },
+    {
+      "id": "gala",
+      "name": "갈라랩",
+      "region": "판교",
+      "role": "재모집 추적",
+      "stack": "서버·클라이언트",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "확인 개발 공고 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://m.jobkorea.co.kr/company/43051532/Recruit"
+        }
+      ]
+    },
+    {
+      "id": "neowid",
+      "name": "네오위드넷",
+      "region": "판교",
+      "role": "재모집 추적",
+      "stack": "개발",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "확인 공고 마감",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공고 원문",
+          "url": "https://zighang.com/recruitment/80c09d9e-c878-4ae6-8758-344c2dbae26b"
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "인더포레스트",
+      "region": "서울 서초",
+      "role": "재모집 추적",
+      "stack": "프론트·백엔드",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "기록된 기한 2026-10-16 · 경과",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "nexsol",
+      "name": "넥솔시스템",
+      "region": "서울 금천",
+      "role": "재모집 추적",
+      "stack": "풀스택·솔루션",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "기록된 기한 2026-10-16 · 경과",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "mdx",
+      "name": "엠디엑스·MDX",
+      "region": "서울 영등포",
+      "role": "재모집 추적",
+      "stack": "시세 데이터 엔지니어",
+      "status": "재공고 감시",
+      "checked": "2026-10-20",
+      "eligibility": "이전 공고의 신입·학력 조건은 새 공고에서 재확인.",
+      "military": "산업기능요원 또는 보충역 채용 이력. 새 공고 신규 편입 조건 재확인.",
+      "deadline": "기록된 기한 2026-10-17 · 경과",
+      "note": "이전 채용 이력이며 현재 지원 가능한 공고로 확정하지 않음.",
+      "candidate": false,
+      "links": []
+    },
+    {
+      "id": "aderx",
+      "name": "에이더엑스",
+      "region": "판교",
+      "role": "신입 소프트웨어 엔지니어",
+      "stack": "Rust · Python · C++ · React",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "졸업 필수 조건은 확인 본문에 없음. 휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "원티드 371394 상단에 마감된 공고 표시. 하단 상시채용 문구는 잔존. 실제 마감일 미공개.",
+      "note": "판교역로231 H스퀘어 S동709호. 상시 문구만으로 접수 유지 판단한 이전 기록을 보완. 신규 지정 후보 상태는 유지, 최종 지정·편입 수용 미확인.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "원티드 공고",
+          "url": "https://www.wanted.co.kr/wd/371394"
+        },
+        {
+          "label": "1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-1",
+      "name": "모빌리오",
+      "region": "판교",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-2",
+      "name": "피케이시큐리티",
+      "region": "용인 수지",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-3",
+      "name": "위프코",
+      "region": "용인 수지",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-4",
+      "name": "경리업무를잘하는청년들",
+      "region": "수원 팔달",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-5",
+      "name": "무븐트",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-6",
+      "name": "피봇브릿지",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "linkareer",
+      "name": "링커리어",
+      "region": "서울 강남",
+      "role": "백엔드 채용전환형 인턴",
+      "stack": "백엔드",
+      "status": "예외 문의",
+      "checked": "2026-11-02",
+      "eligibility": "대졸 이상·졸업예정자 가능. 현재 학력 미충족.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "잡코리아 2026-11-22",
+      "note": "역삼로3길 17. 학력 예외, 최종 지정 및 인턴 후 편입 미확인.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "잡코리아 공고",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50046378"
+        }
+      ]
+    },
+    {
+      "id": "candidate-7",
+      "name": "애드크림",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-8",
+      "name": "엘알에이치알",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-9",
+      "name": "윌로그",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "deepauto",
+      "name": "딥오토",
+      "region": "서울 강남",
+      "role": "AI 플랫폼·백엔드 신입/경력",
+      "stack": "AI 플랫폼 · 백엔드",
+      "status": "조건 확인",
+      "checked": "2026-10-26",
+      "eligibility": "잡코리아 학력무관 / 사람인 대졸 이상으로 조건 충돌.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "공식 검색 목록 2026-12-31 · 상세 검증 실패",
+      "note": "테헤란로 216과 마곡 오피스가 혼재. 실제 근무지·학력·마감·보충역 수용 미확인. 11/2 공식 채용 상세 403. 검색의 학력·주소·마감 충돌을 해소하지 못하여 checked 유지.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "공식 채용",
+          "url": "https://deepauto-ai.career.greetinghr.com/ko/apply"
+        }
+      ]
+    },
+    {
+      "id": "candidate-10",
+      "name": "벗뷰리풀",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-11",
+      "name": "아이엠씨게임즈",
+      "region": "서울 강남",
+      "role": "시스템 엔지니어(SE) 재공고 감시",
+      "stack": "AWS/IDC · 서버·DB 운영 · 사내 기술지원",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "확인한 과거 SE 공고는 신입·학력무관. 휴학생 별도 제한 미표시.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "발견한 SE 공고는 2025-10-19 23:59 마감. 현재 접수 가능한 공고 아님.",
+      "note": "과거 공고 실제 근무지: 강남구 테헤란로77길14 ES타워4층. 최근 검색에 노출돼도 2025년 공고이므로 새 채용으로 세지 않음. 신규 지정 후보·최종 지정 미확인 상태 보존.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        },
+        {
+          "label": "과거 SE 공고 · 2025년 마감",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=51608812"
+        }
+      ]
+    },
+    {
+      "id": "candidate-12",
+      "name": "크로노스튜디오",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-13",
+      "name": "트러스테이",
+      "region": "서울 강남",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-14",
+      "name": "메모리랩스",
+      "region": "서울 서초",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-15",
+      "name": "르몽",
+      "region": "서울 서초",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-16",
+      "name": "퓨처커넥트",
+      "region": "서울 서초",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "promr",
+      "name": "프로엠알",
+      "region": "서울 서초",
+      "role": "신입 개발",
+      "stack": "Java · Kotlin · Spring Boot · SQL",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "학력무관·신입. 개인/팀 Spring Boot 프로젝트·SQL 기초·AI 도구 학습 경험.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "실제 2026-10-08 18:01 마감 / 본문 10/31 잔존",
+      "note": "서초구 효령로68길 32. 기술 준비 방향과 잘 맞아 재모집 우선 추적. 자격증 우대.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "사람인 공고 · 마감",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55175839"
+        }
+      ]
+    },
+    {
+      "id": "candidate-17",
+      "name": "골드넥스",
+      "region": "서울 성동",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-18",
+      "name": "스트리밍하우스",
+      "region": "서울 성동",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-19",
+      "name": "에이아이스페라",
+      "region": "서울 성동",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-20",
+      "name": "111퍼센트",
+      "region": "서울 성동",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-21",
+      "name": "에코두비즈",
+      "region": "서울 성동",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-22",
+      "name": "씨에프케이",
+      "region": "서울 성동",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-23",
+      "name": "디와이정보기술",
+      "region": "서울 금천",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "dix",
+      "name": "딕스코리아",
+      "region": "서울 금천",
+      "role": "QA 어시스턴스 신입",
+      "stack": "개별 확인",
+      "status": "재공고 감시",
+      "checked": "2026-10-26",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "2026-02-20 마감",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "잡코리아 · 마감",
+          "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/48460443"
+        }
+      ]
+    },
+    {
+      "id": "candidate-24",
+      "name": "제이디원",
+      "region": "서울 금천",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "raton",
+      "name": "라톤테크",
+      "region": "서울 금천",
+      "role": "보안 솔루션 신입 개발",
+      "stack": "개별 확인",
+      "status": "재공고 감시",
+      "checked": "2026-10-26",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "신입 공고 마감",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "잡코리아 · 마감",
+          "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/48508814"
+        }
+      ]
+    },
+    {
+      "id": "candidate-25",
+      "name": "커머스코리아",
+      "region": "서울 금천",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-26",
+      "name": "엠시스텍",
+      "region": "서울 영등포",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-27",
+      "name": "디엑셀",
+      "region": "서울 영등포",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-28",
+      "name": "이엠시티",
+      "region": "서울 영등포",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "malgn",
+      "name": "맑은소프트",
+      "region": "서울 구로",
+      "role": "Java 웹솔루션 신입·경력",
+      "stack": "Java",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "공식 안내에 대졸 신입(졸업예정자) 표기. 현 학력 미충족으로 재공고 시 예외 확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "공식 일반 안내는 수시모집이나 채용공고 영역은 현재 모집 기간 아님. 절대 마감일 없음.",
+      "note": "구로구 디지털로288 대륭포스트타워1차1701호. 다른 공식 malgnlms 페이지는 이번 타임아웃. 최종 지정·편입과 새 공고 학력 예외 확인 필요.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "공식 채용 안내",
+          "url": "https://www.malgnlms.com/recruit/recruit.jsp"
+        },
+        {
+          "label": "다른 공식 채용 페이지",
+          "url": "https://www.malgnsoft.com/about/recruit02.jsp"
+        }
+      ]
+    },
+    {
+      "id": "candidate-29",
+      "name": "벨테라퓨틱스",
+      "region": "서울 마포",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "monolith",
+      "name": "팀모노리스",
+      "region": "서울 용산",
+      "role": "백엔드 인재풀",
+      "stack": "백엔드",
+      "status": "재공고 감시",
+      "checked": "2026-11-02",
+      "eligibility": "경력 3년 이상.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "적극 모집 아님 · 인재풀",
+      "note": "용산구 한강대로52길 17-3. 신입 재공고와 최종 지정 확인.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "공식 채용",
+          "url": "https://team-mono.com/ko/careers/backend/"
+        }
+      ]
+    },
+    {
+      "id": "candidate-30",
+      "name": "이노어센드",
+      "region": "서울 중구",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-31",
+      "name": "햄프킹",
+      "region": "서울 강서",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-32",
+      "name": "아라레연구소",
+      "region": "서울 동대문",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-33",
+      "name": "에듀토셀",
+      "region": "서울 성북",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "candidate-34",
+      "name": "한국소프트웨어서비스",
+      "region": "서울 동작",
+      "role": "일반 개발 채용 추적",
+      "stack": "개별 확인",
+      "status": "지정 대기",
+      "checked": "2026-10-20",
+      "eligibility": "개별 채용조건·휴학생 수용 미확인.",
+      "military": "2027년 병역지정업체 1차 선정 후보. 최종 지정 및 보충역 신규 수용 미확인.",
+      "deadline": "최종 선정 2026년 11월 말 예정이라는 기존 조사 기록",
+      "note": "2026-10-26 조사에서도 최종 결과를 찾지 못함. 42곳 전체 개별 검증 완료 아님.",
+      "candidate": true,
+      "links": [
+        {
+          "label": "병무청 1차 선정 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ]
+    },
+    {
+      "id": "daangn",
+      "name": "당근마켓",
+      "checked": "2026-11-02",
+      "candidate": false,
+      "links": [
+        {
+          "label": "공식 백엔드 캠페인",
+          "url": "https://careers.daangn.com/jobs/role/8043876003/"
+        },
+        {
+          "label": "공식 프론트엔드 캠페인",
+          "url": "https://careers.daangn.com/jobs/role/8043875003/"
+        },
+        {
+          "label": "보충역 채용박람회",
+          "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=422"
+        },
+        {
+          "label": "병역일터 지정·채용 이력",
+          "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001491889&menu_id=m_m7_1"
+        }
+      ],
+      "region": "서울 서초",
+      "role": "백엔드·프론트엔드 등 산업기능요원 집중 채용",
+      "stack": "Kotlin/Java · Go · Node.js · Python (백엔드 팀별 상이)",
+      "status": "조건 확인",
+      "eligibility": "신입 도전 가능. 공식 공고에 졸업·자격증 필수 조건 없음. 백엔드는 실제 사용자가 있는 서비스 개발·운영 경험(기간 무관), CS 기본기, 문제 정의부터 출시·운영 경험 요구. 휴학생 별도 제한 미표시.",
+      "military": "① 현재 신규 편입 모집. 공식 캠페인에 보충역 신규 편입 명시. 병역일터 당근마켓 정보처리 지정업체 기록과 박람회 공고로 교차확인.",
+      "deadline": "공식 캠페인 2026-10-27~2026-11-13. 조기 마감 가능. 합격 시 2026-12-14 또는 12-21 입사.",
+      "note": "근무지: 서초구 강남대로 465 교보강남타워(박람회 근무 주소). AI 코딩 도구 활용 경험은 연결점이나 FitLog의 실사용·운영 성과와 CS 기본기를 입증해야 함. 유급 경력 연수 부족만으로 자동 제외하지 않음. 공식 홈페이지 지원 필수, 박람회·병역일터 제출만으로는 전형 진행 안 됨. 프론트엔드는 별도 직무요건 확인. 당근페이 별도 법인 공고와 혼동 금지."
+    },
+    {
+      "id": "estgames",
+      "name": "이스트게임즈",
+      "checked": "2026-11-02",
+      "candidate": false,
+      "links": [
+        {
+          "label": "사람인 · 11/6",
+          "url": "https://m.saramin.co.kr/job-search/view?rec_idx=54955404"
+        },
+        {
+          "label": "게임잡 · 신입 보충역",
+          "url": "https://www.gamejob.co.kr/Recruit/GI_Read/View?GI_No=283932"
+        },
+        {
+          "label": "기업 공식 사이트",
+          "url": "https://www.estgames.co.kr/"
+        }
+      ],
+      "region": "서울 서초",
+      "role": "신입 산업기능요원 게임 클라이언트·서버",
+      "stack": "게임 서버·클라이언트 (공고 태그: C/C++ · Java · C# · Python · Linux 등; 필수 스택 본문 확인 필요)",
+      "status": "조건 확인",
+      "eligibility": "게임잡에 신입·학력무관. 사람인 경력무관(신입포함)·학력무관. 휴학생 및 무자격증에 대한 별도 제한은 확인되지 않았으나 상세 기술요건은 미확인.",
+      "military": "① 보충역 신입 채용 근거 있음. 게임잡의 신입 보충역 공고와 사람인 병역특례 인증업체 표기. 병무청 지정 원장 및 실제 신규 편입 시점은 미대조. 경력 1년 이상 전직자 전용 공고는 이 후보와 구분.",
+      "deadline": "사람인 2026-09-07~2026-11-06 23:59. 게임잡 별도 신입 공고: 채용 시 마감·2026-11-02 수정·지원 경로 표시.",
+      "note": "실제 근무지: 서초구 반포대로 3 이스트빌딩 5층(서초동 1464-30). 이번에 찾은 기존 누락 후보이며 이번 주 신규 게시라고 단정하지 않음. 기업 공식 사이트는 JS 화면으로 상세 대조 실패. 게임 개발 지식과 필수 언어·과제 수준 확인 후 지원 판단."
+    }
+  ],
+  "events": [
+    {
+      "id": "2026-10-21-epapyrus-0",
+      "date": "2026-10-21",
+      "companyId": "epapyrus",
+      "type": "추가",
+      "title": "보충역 경력 완화 문의 후보 발견",
+      "before": "기존 목록에 없던 문의 후보",
+      "after": "학력무관·보충역 경력 완화 표기. 기본 경력은 4~8년.",
+      "action": "무경력까지 완화되는지와 신규 편입 확인.",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55171531",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-21-eactive-1",
+      "date": "2026-10-21",
+      "companyId": "eactive",
+      "type": "추가",
+      "title": "Java 신입 학력 예외 문의 후보",
+      "before": "기존 목록에 없던 문의 후보",
+      "after": "보충역 신입 1명. 대졸 이상 필수.",
+      "action": "현재 학력 미충족. 예외 수용 근거 없음.",
+      "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=312",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-21-nudge-2",
+      "date": "2026-10-21",
+      "companyId": "nudge",
+      "type": "마감",
+      "title": "사람인 병역특례 경로 마감 확인",
+      "before": "기존 지원 경로로 안내",
+      "after": "사람인 10/20 23:59 마감. 병역일터는 10/29 노출·개별 접수 미확인.",
+      "action": "회사 전체 종료로 단정하지 않고 경로별로 확인.",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=54810640",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-mg-3",
+      "date": "2026-10-26",
+      "companyId": "mg",
+      "type": "추가",
+      "title": "서버 개발 보충역 신입 후보",
+      "before": "10/21까지 정리된 목록에 없음",
+      "after": "학력·경력무관 신입 1명. 박람회 지원중. 스택 미표시.",
+      "action": "실제 스택·운영 경험 요구·편입 시점부터 확인.",
+      "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=247",
+      "sourceLabel": "보충역 채용박람회"
+    },
+    {
+      "id": "2026-10-26-gmd-4",
+      "date": "2026-10-26",
+      "companyId": "gmd",
+      "type": "추가",
+      "title": "판교 보안기술 신입 후보",
+      "before": "10/21까지 정리된 목록에 없음",
+      "after": "학력·경력·자격증무관 신입 1명. 박람회 지원중.",
+      "action": "잡코리아 별도 공고는 마감. OS·보안 준비 필요.",
+      "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=335",
+      "sourceLabel": "보충역 채용박람회"
+    },
+    {
+      "id": "2026-10-26-skycom-5",
+      "date": "2026-10-26",
+      "companyId": "skycom",
+      "type": "추가",
+      "title": "Spring 직무의 학력 예외 문의 후보",
+      "before": "10/21까지 정리된 목록에 없음",
+      "after": "보충역 신입. JSP·Spring Boot. 대졸 이상 필수.",
+      "action": "현재 학력 미충족. 예외 허용 근거 없음.",
+      "url": "https://xn--ok0bo8ff0e5b053afmbh9mnllikartl1bhh4rt9es73a8hflz9b.kr/pages/job_detail.php?id=246",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-jeonneung-6",
+      "date": "2026-10-26",
+      "companyId": "jeonneung",
+      "type": "변경",
+      "title": "원티드 지원 경로·편입 시점 추가",
+      "before": "병역일터 10/31 기한의 기존 우선 후보",
+      "after": "원티드 상시·신입·보충역 신규. 입사 2개월 후 편입.",
+      "action": "병역일터 기한 연장과 구분. 우선 검토 유지.",
+      "url": "https://www.wanted.co.kr/wd/75585",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-smart-7",
+      "date": "2026-10-26",
+      "companyId": "smart",
+      "type": "변경",
+      "title": "잡코리아 접수 경로 추가",
+      "before": "병역일터 11/30 기한",
+      "after": "잡코리아 10/19~11/18. 신입·학력무관·보충역.",
+      "action": "플랫폼별 마감일 구분. PHP·Node.js 적응 필요.",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50195481",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-awesome-8",
+      "date": "2026-10-26",
+      "companyId": "awesome",
+      "type": "변경",
+      "title": "공식 공고와 박람회 상태 구분",
+      "before": "기존 게임 개발 보충역 후보",
+      "after": "공식 신입·보충역 신규 공고 게시, 박람회는 마감.",
+      "action": "공식 경로 실제 접수 가능 여부 확인.",
+      "url": "https://recruit.awesomepiece.com/6438dd11-a1ac-4d35-9c9d-41167b7e0f3e",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-fetching-9",
+      "date": "2026-10-26",
+      "companyId": "fetching",
+      "type": "재확인",
+      "title": "랠릿 접수 상태와 무경력 조건 재확인",
+      "before": "Node.js/NestJS 전환 후보",
+      "after": "지원하기 버튼·채용 시 마감·무경력 신입 가능 확인.",
+      "action": "휴학생·보충역 신규·수습 중 편입 시점 미확인.",
+      "url": "https://www.rallit.com/positions/3063",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-nudge-10",
+      "date": "2026-10-26",
+      "companyId": "nudge",
+      "type": "변경",
+      "title": "별도 일반 인턴 채용 발견",
+      "before": "사람인 병역특례 경로 마감",
+      "after": "백엔드 전환형 인턴 12/11까지. 대졸·졸업예정 가능.",
+      "action": "학력 예외와 편입 연계 모두 확인 필요.",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50148837",
+      "sourceLabel": "공고 원문"
+    },
+    {
+      "id": "2026-10-26-deepauto-11",
+      "date": "2026-10-26",
+      "companyId": "deepauto",
+      "type": "확인 필요",
+      "title": "플랫폼별 학력·근무지 조건 충돌",
+      "before": "1차 선정 업체로 일반 채용 추적",
+      "after": "신입/경력 AI·백엔드 발견. 학력·주소·기한이 서로 다름.",
+      "action": "공식 상세 접근 실패. 지원 가능 확정 아님.",
+      "url": "https://deepauto-ai.career.greetinghr.com/ko/apply",
+      "sourceLabel": "공식 채용"
+    },
+    {
+      "id": "2026-10-26-linkareer-12",
+      "date": "2026-10-26",
+      "companyId": "linkareer",
+      "type": "정정",
+      "title": "학력 예외 문의 후보로 분류 보완",
+      "before": "백엔드 전환형 인턴 후보로 소개",
+      "after": "대졸 이상·졸업예정자 가능을 원문에서 확인.",
+      "action": "현재 학력 미충족. 최종 지정·편입 연계도 미확인.",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50046378",
+      "sourceLabel": "잡코리아 공고"
+    },
+    {
+      "id": "2026-10-26-aderx-13",
+      "date": "2026-10-26",
+      "companyId": "aderx",
+      "type": "재확인",
+      "title": "판교 신입 상시 공고 유지",
+      "before": "신입 소프트웨어 엔지니어 상시",
+      "after": "Rust·Python·C++·React. 원티드 상시 표기 유지.",
+      "action": "휴학생 수용·최종 지정 후 편입 계획 확인.",
+      "url": "https://www.wanted.co.kr/wd/371394",
+      "sourceLabel": "원티드 공고"
+    },
+    {
+      "id": "2026-10-26-monolith-14",
+      "date": "2026-10-26",
+      "companyId": "monolith",
+      "type": "변경",
+      "title": "즉시 지원 후보에서 재공고 감시로",
+      "before": "1차 선정 후보·일반 백엔드 채용 추적",
+      "after": "공식 페이지 경력 3년 이상·적극 모집하지 않는 인재풀.",
+      "action": "신입 재공고 감시.",
+      "url": "https://team-mono.com/ko/careers/backend/",
+      "sourceLabel": "공식 채용"
+    },
+    {
+      "id": "2026-10-26-promr-15",
+      "date": "2026-10-26",
+      "companyId": "promr",
+      "type": "마감",
+      "title": "본문 기한과 실제 마감 상태 구분",
+      "before": "본문에는 10/31까지라는 문구 잔존",
+      "after": "실제 접수 상태는 10/8 18:01 마감.",
+      "action": "Spring·SQL·AI 학습 경험이 맞아 재공고 우선 추적.",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55175839",
+      "sourceLabel": "사람인 공고 · 마감"
+    },
+    {
+      "id": "2026-10-26-raton-16",
+      "date": "2026-10-26",
+      "companyId": "raton",
+      "type": "마감",
+      "title": "보안 솔루션 신입 공고 마감 확인",
+      "before": "1차 선정 후보·개발 채용 추적",
+      "after": "확인한 신입 공고 마감.",
+      "action": "최종 지정·재모집 추적.",
+      "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/48508814",
+      "sourceLabel": "잡코리아 · 마감"
+    },
+    {
+      "id": "2026-10-26-dix-17",
+      "date": "2026-10-26",
+      "companyId": "dix",
+      "type": "마감",
+      "title": "QA 공고의 과거 마감일 확인",
+      "before": "1차 선정 후보·QA 채용 추적",
+      "after": "확인한 QA 신입 공고 2/20 마감.",
+      "action": "현재 지원처로 넣지 않고 재모집 추적.",
+      "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/48460443",
+      "sourceLabel": "잡코리아 · 마감"
+    },
+    {
+      "id": "2026-10-26-codeit-18",
+      "date": "2026-10-26",
+      "companyId": "codeit",
+      "type": "재확인",
+      "title": "보충역 신규 편입 공식 공고 재확인",
+      "before": "기존 개발직 지원 후보",
+      "after": "공식 페이지에서 경력무관·보충역 신규 재확인.",
+      "action": "상세 학력·기한·접수 경로 확인 후 지원 판단.",
+      "url": "",
+      "sourceLabel": "기존 조사 대화"
+    },
+    {
+      "id": "2026-10-26-bio-19",
+      "date": "2026-10-26",
+      "companyId": "bio",
+      "type": "확인 필요",
+      "title": "접수 가능 여부 원문 재확인 필요",
+      "before": "기존 지원 후보",
+      "after": "검색 자료는 있으나 개별 원문 또는 정확한 접수기간 검증 미완료.",
+      "action": "10/26 기준 접수 가능 확정으로 표시하지 않음.",
+      "url": "",
+      "sourceLabel": "기존 조사 대화"
+    },
+    {
+      "id": "2026-10-26-branch-20",
+      "date": "2026-10-26",
+      "companyId": "branch",
+      "type": "확인 필요",
+      "title": "접수 가능 여부 원문 재확인 필요",
+      "before": "기존 지원 후보",
+      "after": "검색 자료는 있으나 개별 원문 또는 정확한 접수기간 검증 미완료.",
+      "action": "10/26 기준 접수 가능 확정으로 표시하지 않음.",
+      "url": "",
+      "sourceLabel": "기존 조사 대화"
+    },
+    {
+      "id": "2026-10-26-astero-21",
+      "date": "2026-10-26",
+      "companyId": "astero",
+      "type": "확인 필요",
+      "title": "접수 가능 여부 원문 재확인 필요",
+      "before": "기존 지원 후보",
+      "after": "검색 자료는 있으나 개별 원문 또는 정확한 접수기간 검증 미완료.",
+      "action": "10/26 기준 접수 가능 확정으로 표시하지 않음.",
+      "url": "",
+      "sourceLabel": "기존 조사 대화"
+    },
+    {
+      "id": "2026-10-26-revi-22",
+      "date": "2026-10-26",
+      "companyId": "revi",
+      "type": "확인 필요",
+      "title": "접수 가능 여부 원문 재확인 필요",
+      "before": "기존 지원 후보",
+      "after": "검색 자료는 있으나 개별 원문 또는 정확한 접수기간 검증 미완료.",
+      "action": "10/26 기준 접수 가능 확정으로 표시하지 않음.",
+      "url": "",
+      "sourceLabel": "기존 조사 대화"
+    },
+    {
+      "id": "2026-11-02-daangn-1",
+      "date": "2026-11-02",
+      "companyId": "daangn",
+      "type": "추가",
+      "title": "10/27 시작한 보충역 신규 편입 캠페인",
+      "before": "기존 보드에 회사·공고 기록 없음.",
+      "after": "백엔드·프론트엔드 등 11/13까지. 공식 보충역 신규 명시, 12/14 또는 12/21 입사 예정.",
+      "action": "도전 후보. 백엔드 필수인 실사용 서비스 운영 경험을 먼저 점검. 졸업·유급 경력 필수 조건은 확인되지 않음.",
+      "url": "https://careers.daangn.com/jobs/role/8043876003/",
+      "sourceLabel": "당근 공식 채용"
+    },
+    {
+      "id": "2026-11-02-estgames-2",
+      "date": "2026-11-02",
+      "companyId": "estgames",
+      "type": "추가",
+      "title": "기존 누락 신입 게임 서버·클라이언트 후보",
+      "before": "기존 보드 기록 없음.",
+      "after": "신입·학력무관 보충역 공고. 사람인 11/6까지, 게임잡 별도 경로 채용 시 마감.",
+      "action": "전직 경력자 공고와 분리. 필수 기술·신규 편입 시점·지정 원장 대조는 확인 필요.",
+      "url": "https://www.gamejob.co.kr/Recruit/GI_Read/View?GI_No=283932",
+      "sourceLabel": "게임잡 기업 등록 원문 / 사람인 대조"
+    },
+    {
+      "id": "2026-11-02-jeonneung-3",
+      "date": "2026-11-02",
+      "companyId": "jeonneung",
+      "type": "변경",
+      "title": "병역일터 11/30 연장·휴학생 조건 확인",
+      "before": "병역일터 10/31, 휴학생 개별 수용 확인 필요.",
+      "after": "동일 공고 접수기간 11/30. 대학교 휴학 이상·신입·입사 2개월 후 편입을 원문 확인.",
+      "action": "Java/Spring 우선 검토. 코딩테스트 대비와 편입 일정 확인.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001497289&menu_id=m_m7_1",
+      "sourceLabel": "병역일터 최신 상세공고"
+    },
+    {
+      "id": "2026-11-02-bio-4",
+      "date": "2026-11-02",
+      "companyId": "bio",
+      "type": "변경",
+      "title": "원문 검증 완료: 휴학생 Java 신입 우선 후보",
+      "before": "10/26에는 11/30 검색 기한만 확보, 상세 원문 미검증.",
+      "after": "병역일터에서 보충역 신입·휴학 이상·Java/JSP·가산 근무·11/30 확인. 잡코리아 별도 기한은 11/22.",
+      "action": "자격증은 우대이므로 미취득만으로 제외하지 않음. 편입 시점·업무 내용 확인.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001531900&menu_id=m_m7_1",
+      "sourceLabel": "병역일터 / 기업 공식 / 잡코리아"
+    },
+    {
+      "id": "2026-11-02-poly-5",
+      "date": "2026-11-02",
+      "companyId": "poly",
+      "type": "변경",
+      "title": "웹 개발 공고 11/30 연장, 학력 조건 유지",
+      "before": "병역일터 10/31까지, 대학 졸업예정 이상.",
+      "after": "원문 접수기간 11/30으로 변경. 대학 졸업예정 이상은 그대로.",
+      "action": "학력 예외 허용 근거가 없으므로 문의 후보로 유지.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000000435903&menu_id=m_m7_1",
+      "sourceLabel": "병역일터"
+    },
+    {
+      "id": "2026-11-02-codeit-6",
+      "date": "2026-11-02",
+      "companyId": "codeit",
+      "type": "변경",
+      "title": "누락된 공식 지원 링크·Kotlin/Spring 상세 보완",
+      "before": "공식 신규 편입 공고 이력만 있고 URL·근무지·상세 스택 기록 없음.",
+      "after": "공식 원문: 을지로, 경력무관, 보충역 신규, Kotlin/Spring WebFlux. 지원하기 버튼 확인.",
+      "action": "스택 불일치 자동 제외 불필요. 자료구조·알고리즘 및 라이브 코딩 준비.",
+      "url": "https://careers.codeit.com/c/VhocmZxWah?back=true",
+      "sourceLabel": "코드잇 공식 채용"
+    },
+    {
+      "id": "2026-11-02-smart-7",
+      "date": "2026-11-02",
+      "companyId": "smart",
+      "type": "변경",
+      "title": "병역일터 지정·고졸 이상·신규 채용 근거 보완",
+      "before": "잡코리아 신입·학력무관·보충역 확인, 병역일터 상세 근거 미수록.",
+      "after": "병역일터 정보처리 지정업체, 고졸 이상·신입/경력·전직자 채용 아니오·11/30 확인.",
+      "action": "잡코리아 11/18과 기한 분리. 수습·편입 시점 확인.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001542898&menu_id=m_m7_1",
+      "sourceLabel": "병역일터"
+    },
+    {
+      "id": "2026-11-02-branch-8",
+      "date": "2026-11-02",
+      "companyId": "branch",
+      "type": "마감",
+      "title": "10/31 원문 기한 경과, 재공고 감시로",
+      "before": "검색 기한 10/31이나 원문 미검증.",
+      "after": "원문에서도 10/31 확인. 고졸 이상·신입/경력, 현업 2년은 우대.",
+      "action": "현재 접수 확정에서 제외. 공식 일반 공고 재접수와 신규 편입 여부를 다시 확인.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001516889&menu_id=m_m7_1",
+      "sourceLabel": "병역일터 · 기한 경과 판정"
+    },
+    {
+      "id": "2026-11-02-astero-9",
+      "date": "2026-11-02",
+      "companyId": "astero",
+      "type": "마감",
+      "title": "병역일터 11/1 기한 경과·일반 채용은 별도",
+      "before": "기한 11/1 검색 정보만 확보, 원문 미검증.",
+      "after": "병역일터 휴학 이상·신입 조건과 11/1 확인. 일반 채용 노출은 있으나 편입·접수 미확정.",
+      "action": "병역공고 재공고 감시. 일반 채용을 병역공고 연장으로 처리하지 않음.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001510094&menu_id=m_m7_1",
+      "sourceLabel": "병역일터 / 공식 채용 홈페이지"
+    },
+    {
+      "id": "2026-11-02-nudge-10",
+      "date": "2026-11-02",
+      "companyId": "nudge",
+      "type": "마감",
+      "title": "병역일터 백엔드도 마감 문구 확인",
+      "before": "10/29 기한 노출만 확인, 개별 접수 상태 미확인.",
+      "after": "원문에 이미 마감된 채용공고라고 표시. 일반 인턴 채용과 분리.",
+      "action": "일반 인턴을 신규 편입 지원처로 확정하지 않음.",
+      "url": "https://work.mma.go.kr/caisBYIS/search/cygonggogeomsaekView.do?cygonggo_no=2000001470092&menu_id=m_m7_1",
+      "sourceLabel": "병역일터"
+    },
+    {
+      "id": "2026-11-02-revi-11",
+      "date": "2026-11-02",
+      "companyId": "revi",
+      "type": "마감",
+      "title": "Node.js 잡코리아 경로 마감 확인",
+      "before": "정확한 접수기간·현재 상태 미확인.",
+      "after": "잡코리아 원문 마감 표시. 검색 자료의 기한은 10/25.",
+      "action": "다른 플랫폼 상시 표기를 현재 접수 가능으로 간주하지 않음.",
+      "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/49858053?PageGbn=MST&sc=226",
+      "sourceLabel": "잡코리아 원문"
+    },
+    {
+      "id": "2026-11-02-epapyrus-12",
+      "date": "2026-11-02",
+      "companyId": "epapyrus",
+      "type": "마감",
+      "title": "10/31 절대 기한 경과, 재공고 확인 필요",
+      "before": "사람인·잡코리아 10/31 모집으로 기록.",
+      "after": "사람인 원문 절대 마감 10/31 23:59. 오래된 D-2 표기는 무시.",
+      "action": "회사 전체 종료 단정 없이 재공고 감시. 기본 경력 4~8년 예외 조건 유지.",
+      "url": "https://m.saramin.co.kr/job-search/view?rec_idx=55171531",
+      "sourceLabel": "사람인 · 절대 기한 경과 판정"
+    },
+    {
+      "id": "2026-11-02-aderx-13",
+      "date": "2026-11-02",
+      "companyId": "aderx",
+      "type": "마감",
+      "title": "상시 문구와 달리 원문은 마감",
+      "before": "10/26 원티드 상시 표기 유지로 안내.",
+      "after": "원문 상단 해당 공고는 마감된 공고입니다 확인. 정확한 종료일은 미표시.",
+      "action": "상시 표기를 접수 가능으로 보지 않음. 신입 재공고와 최종 지정 추적.",
+      "url": "https://www.wanted.co.kr/wd/371394",
+      "sourceLabel": "원티드 원문"
+    },
+    {
+      "id": "2026-11-02-malgn-14",
+      "date": "2026-11-02",
+      "companyId": "malgn",
+      "type": "변경",
+      "title": "공식 채용공고 영역은 현재 모집하지 않음",
+      "before": "공식 페이지 간 학력·모집기간 충돌 확인 필요.",
+      "after": "malgnsoft 공식 채용공고 영역: 현재 모집 기간 아님. 일반 수시모집 안내와 구분.",
+      "action": "재공고 감시로 전환. 대졸·졸업예정 조건 예외와 지정 결과 확인.",
+      "url": "https://www.malgnsoft.com/about/recruit02.jsp",
+      "sourceLabel": "맑은소프트 공식 채용"
+    },
+    {
+      "id": "2026-11-02-candidate-11-15",
+      "date": "2026-11-02",
+      "companyId": "candidate-11",
+      "type": "정정",
+      "title": "최근 검색에 노출된 SE 공고는 2025년 마감",
+      "before": "일반 개발 채용 추적만 있고 개별 공고 이전값 없음.",
+      "after": "신입·학력무관 SE 공고를 발견했으나 실제 마감일은 2025-10-19.",
+      "action": "현재 지원처로 추가하지 않고 재공고 감시만 보완.",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=51608812",
+      "sourceLabel": "사람인 원문"
+    }
+  ],
+  "runs": [
+    {
+      "id": "2026-10-20",
+      "date": "2026-10-20",
+      "summary": "기존 후보·재공고 감시·신규 지정 42곳의 기준 기록",
+      "coverage": "원래 79곳 중 이 대화에 남아 있는 회사와 조건만 수록. 이전값을 추정하지 않음."
+    },
+    {
+      "id": "2026-10-21",
+      "date": "2026-10-21",
+      "summary": "문의 후보 2곳 추가 · 넛지헬스케어 사람인 마감",
+      "coverage": "기존 79곳 전체 및 신규 지정 42곳 전체 재검증 아님."
+    },
+    {
+      "id": "2026-10-26",
+      "date": "2026-10-26",
+      "summary": "새 후보 3곳 · 지원 경로 보완 · 학력 정정·마감 확인",
+      "coverage": "10/21 대비 변화 중심. 신규 지정 42곳 전체 개별 검증 미완료. 용인·수원·화성에서 새 적격 IT 공고를 확정하지 못함."
+    },
+    {
+      "id": "2026-11-02",
+      "date": "2026-11-02",
+      "summary": "추가 2 · 변경·정정 7 · 마감·기한경과 6 — 당근 집중채용, 전능아이티 11/30 연장, 비오시스템즈 원문 검증",
+      "coverage": "10/26 대비 변화 중심. 추가는 신규 게시 1곳(당근)과 기존 누락 1곳(이스트게임즈). 마감 6건 중 브랜치앤바운드·아스테로모프·이파피루스 3건은 원문 절대 기한 경과 판정으로, 연장 미확인 및 회사 전체 종료 아님. 이번 원문 재검증 회사: 지엠디소프트, 전능아이티, 스마트동스쿨, 어썸피스, 넛지헬스케어, 이파피루스, 폴리큐브, 비오시스템즈, 브랜치앤바운드, 아스테로모프, 리비바이오, 코드잇, 에이더엑스, 링커리어, 아이엠씨게임즈, 프로엠알, 맑은소프트, 팀모노리스, 당근마켓, 이스트게임즈. 서울·판교·용인(수지 포함)·수원·화성 검색. 용인·수원·화성 신규 적격 IT 지원처는 확보하지 못함. 파인브이티(안양), 킹스정보통신(하남), 비아이엔솔루션(인천), 제론소프트엔(과천)은 지역 밖으로 제외. 전문연구요원·생산직도 제외. 기존 신규 지정 후보 42개사 이름을 포함한 묶음 검색과 일부 개별 원문 확인을 수행했으나 42개사 전체 일반 채용·주소·학력 검증은 미완료. 병무청 2026-10-15 공지 본문은 10~11월 실사 후 11월 말 최종 선정 예정. 이번 검색에서 최종 결과를 찾지 못했으며 명부 첨부 PDF는 형식 오류로 재대조 실패. 42곳을 지정 완료로 승격하지 않음. 페칭·엠지솔루션스·딥오토 공식 상세 및 넛지 일반 인턴 등 접근 실패 항목은 이전 확인일·경로별 기한 유지. 나머지 회사도 이번 미검증이면 checked 유지. 조회 시 검색 색인·과거 캐시가 섞여 상대 D-day 대신 상세 절대 기한·마감 문구 우선. 실제 지원·문의 전송 없음. SQLD 미취득 기준.",
+      "sources": [
+        {
+          "label": "병무청 1차 선정 공식 공지",
+          "url": "https://work.mma.go.kr/caisBYIS/board/boardView.do?gesipan_gbcd=13&ilryeon_no=2002058148&menu_id=m_m8_6&tmpl_id=1"
+        }
+      ],
+      "checkedCompanyIds": [
+        "gmd",
+        "jeonneung",
+        "smart",
+        "awesome",
+        "nudge",
+        "epapyrus",
+        "poly",
+        "bio",
+        "branch",
+        "astero",
+        "revi",
+        "codeit",
+        "aderx",
+        "linkareer",
+        "candidate-11",
+        "promr",
+        "malgn",
+        "monolith",
+        "daangn",
+        "estgames"
+      ],
+      "candidateSearchScope": [
+        "에이더엑스",
+        "모빌리오",
+        "피케이시큐리티",
+        "위프코",
+        "경리업무를잘하는청년들",
+        "무븐트",
+        "피봇브릿지",
+        "링커리어",
+        "애드크림",
+        "엘알에이치알",
+        "윌로그",
+        "딥오토",
+        "벗뷰리풀",
+        "아이엠씨게임즈",
+        "크로노스튜디오",
+        "트러스테이",
+        "메모리랩스",
+        "르몽",
+        "퓨처커넥트",
+        "프로엠알",
+        "골드넥스",
+        "스트리밍하우스",
+        "에이아이스페라",
+        "111퍼센트",
+        "에코두비즈",
+        "씨에프케이",
+        "디와이정보기술",
+        "딕스코리아",
+        "제이디원",
+        "라톤테크",
+        "커머스코리아",
+        "엠시스텍",
+        "디엑셀",
+        "이엠시티",
+        "맑은소프트",
+        "벨테라퓨틱스",
+        "팀모노리스",
+        "이노어센드",
+        "햄프킹",
+        "아라레연구소",
+        "에듀토셀",
+        "한국소프트웨어서비스"
+      ],
+      "counts": {
+        "추가": 2,
+        "변경": 6,
+        "정정": 1,
+        "마감": 6
+      }
+    }
+  ],
+  "automation": {
+    "enabled": true,
+    "intervalDays": 7,
+    "timeZone": "Asia/Seoul",
+    "anchorAt": "2026-10-26T09:00:00+09:00"
+  },
+  "siteIntegratedAt": "2026-11-07",
+  "source": {
+    "label": "기존 채용 조사 보드",
+    "researchDate": "2026-11-02"
+  }
+}

@@ -1,3 +1,4 @@
+import {initCareers,isCareerRoute,renderCareerPage,renderCareerStatus,careerBanner} from './careers.js';
 import {validateCatalog,nextScheduledRun,updateIsOverdue,loadCatalog} from './catalog-utils.js';
 const $ = (s, root = document) => root.querySelector(s);
 const escape = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -30,15 +31,18 @@ const crumbs = links => `<nav class="crumb" aria-label="현재 위치"><a href="
 const note = () => `<div class="notice"><span aria-hidden="true">ⓘ</span><span><strong>${catalog.verifiedAt} 수록 기준.</strong> 참가 자격·모집 상태는 신청 전 원문에서 확인하세요. ‘조건 확인’은 휴학생 자격, 카드 발급, 필수 참석 장소 등 추가 확인이 필요한 공고입니다.</span></div>`;
 function route(){const parts=location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);return {section:parts[0]||'home',field:parts[1]||null};}
 function render(){
-  if(!catalog)return;
   const r=route();updateSavedCount();renderUpdateStatus();
+  document.querySelectorAll('.site-header nav a').forEach(a=>{const selected=a.classList.contains('nav-careers')?isCareerRoute():a.classList.contains('nav-all')?(!isCareerRoute()&&r.section!=='saved'):r.section==='saved';if(selected)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  if(isCareerRoute()){renderCareerPage();document.title='산업기능요원 채용 | 다음 기회';return;}
+  if(!catalog)return;
   if(r.section==='home')renderHome();
   else if(categories[r.section]&&!r.field)renderFields(r.section);
   else if(categories[r.section]||['all','saved'].includes(r.section))renderResults(r);
   else{location.hash='#/';return;}
-  document.title=(r.section==='home'?'다음 기회 — IT 활동 탐색':`${categories[r.section]?.name|| (r.section==='saved'?'저장한 기회':'전체 공고')} | 다음 기회`);
+  document.title=(r.section==='home'?'다음 기회 — IT 활동과 채용':`${categories[r.section]?.name|| (r.section==='saved'?'저장한 기회':'전체 공고')} | 다음 기회`);
 }
 function renderUpdateStatus(){
+  if(isCareerRoute()){renderCareerStatus();return;}
   const panel=$('#update-status');if(!panel||!catalog)return;
   const next=nextScheduledRun(catalog.automation);
   const format=date=>new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}).format(date);
@@ -69,7 +73,7 @@ async function refreshCatalog(manual=false){
 function renderHome(){
  const open=catalog.items.filter(x=>!deadlineLabel(x).closed);
  const soon=[...open].sort((a,b)=>a.deadline.localeCompare(b.deadline)).slice(0,4);
- main.innerHTML=`<section class="hero"><div class="hero-copy"><div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div><h1>다음 경험을 만드는<br><span class="accent">나에게 맞는 기회.</span></h1><p>해커톤부터 부트캠프, 공모전까지.<br>관심 분야를 따라가며 도전하고 싶은 활동을 찾아보세요.</p><div class="scope-tags"><span>서울 · 경기 · 온라인</span><span>대학생 · 휴학생 대상 탐색</span></div></div><aside class="hero-aside" aria-label="공고 현황"><div class="aside-top"><span>OPPORTUNITY INDEX</span><span>↗</span></div><div class="big-stat">${catalog.items.length}<span>개의 기회</span></div><span style="font-size:12px;color:var(--muted)">한곳에서 살펴보고, 나의 다음을 준비해요.</span><div class="aside-foot"><span>수록 기준 ${catalog.verifiedAt.replaceAll('-','.')}</span><span>3 CATEGORIES</span></div></aside></section><section aria-labelledby="category-title"><div class="section-heading"><div><h2 id="category-title">어떤 경험을 찾고 있나요?</h2><p>종류를 선택하면 관심 분야별로 좁혀 볼 수 있어요.</p></div><a class="text-link" href="#/all">전체 보기 ↗</a></div><div class="category-grid">${Object.entries(categories).map(([key,c])=>`<a class="category-card ${key}" href="#/${key}"><div class="category-top"><span class="category-icon">${icon(key)}</span><span class="category-count">${count(key)}개 공고</span></div><h2>${c.name}</h2><p>${c.desc}</p><span class="category-arrow" aria-hidden="true">↗</span></a>`).join('')}</div></section><div class="section-break"></div><section aria-labelledby="soon-title"><div class="section-heading"><div><h2 id="soon-title">먼저 살펴볼 마감 일정</h2><p>수록된 마감일이 가까운 순서예요.</p></div><span style="font-size:11px;color:var(--muted)">한국시간 기준</span></div><div class="soon-grid">${soon.map(x=>`<button class="mini-card" data-open="${x.id}">${badge(x)}<h3>${escape(x.name)}</h3><p>${categories[x.category].name} · ${dateLabel(x.deadline)} 마감</p></button>`).join('')||'<p>마감일이 남은 공고가 없어요. 전체 공고에서 지난 기록을 볼 수 있어요.</p>'}</div></section>${note()}`;
+ main.innerHTML=`<section class="hero"><div class="hero-copy"><div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div><h1>다음 경험을 만드는<br><span class="accent">나에게 맞는 기회.</span></h1><p>해커톤, 부트캠프, 공모전에서 산업기능요원 채용까지.<br>관심 분야를 따라 배우고, 일할 기회까지 찾아보세요.</p><div class="scope-tags"><span>서울 · 경기 · 온라인</span><span>대학생 · 휴학생 대상 탐색</span></div></div><aside class="hero-aside" aria-label="공고 현황"><div class="aside-top"><span>OPPORTUNITY INDEX</span><span>↗</span></div><div class="big-stat">${catalog.items.length}<span>개의 기회</span></div><span style="font-size:12px;color:var(--muted)">한곳에서 살펴보고, 나의 다음을 준비해요.</span><div class="aside-foot"><span>수록 기준 ${catalog.verifiedAt.replaceAll('-','.')}</span><span>3 CATEGORIES</span></div></aside></section>${careerBanner()}<section aria-labelledby="category-title"><div class="section-heading"><div><h2 id="category-title">어떤 경험을 찾고 있나요?</h2><p>종류를 선택하면 관심 분야별로 좁혀 볼 수 있어요.</p></div><a class="text-link" href="#/all">전체 보기 ↗</a></div><div class="category-grid">${Object.entries(categories).map(([key,c])=>`<a class="category-card ${key}" href="#/${key}"><div class="category-top"><span class="category-icon">${icon(key)}</span><span class="category-count">${count(key)}개 공고</span></div><h2>${c.name}</h2><p>${c.desc}</p><span class="category-arrow" aria-hidden="true">↗</span></a>`).join('')}</div></section><div class="section-break"></div><section aria-labelledby="soon-title"><div class="section-heading"><div><h2 id="soon-title">먼저 살펴볼 마감 일정</h2><p>수록된 마감일이 가까운 순서예요.</p></div><span style="font-size:11px;color:var(--muted)">한국시간 기준</span></div><div class="soon-grid">${soon.map(x=>`<button class="mini-card" data-open="${x.id}">${badge(x)}<h3>${escape(x.name)}</h3><p>${categories[x.category].name} · ${dateLabel(x.deadline)} 마감</p></button>`).join('')||'<p>마감일이 남은 공고가 없어요. 전체 공고에서 지난 기록을 볼 수 있어요.</p>'}</div></section>${note()}`;
 }
 function renderFields(category){const c=categories[category];const items=catalog.items.filter(x=>x.category===category);
  main.innerHTML=`${crumbs([[c.name,null]])}${steps(2)}<div class="page-heading"><div class="eyebrow">${c.en}</div><h1>어떤 분야에 관심 있나요?</h1><p>${c.name} ${items.length}개 중 원하는 분야를 골라보세요.<br>여러 분야를 다루는 공고는 각 분야에 함께 표시돼요.</p></div><div class="field-grid">${Object.entries(fields).filter(([key])=>items.some(x=>x.fields.includes(key))).map(([key,f])=>`<a class="field-card" href="#/${category}/${key}"><span class="field-icon" aria-hidden="true">${f.icon}</span><span><strong>${f.name}</strong><small>${items.filter(x=>x.fields.includes(key)).length}개 공고 · ${f.desc}</small></span><span class="chevron" aria-hidden="true">↗</span></a>`).join('')}</div><a class="all-field" href="#/${category}/all">${c.name} 전체 보기 <span>→</span></a>${note()}`;
@@ -110,6 +114,7 @@ document.addEventListener('click',e=>{const target=e.target.closest('button');if
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>{activeId=null;});
 window.addEventListener('hashchange',()=>{if(dialog.open)dialog.close();filters={query:'',mode:'all',uncertain:false,closed:false,sort:'deadline'};render();window.scrollTo(0,0);main.focus({preventScroll:true});});
-await refreshCatalog(true);
+await Promise.all([refreshCatalog(true),initCareers({onChange:render,notify:showToast})]);
 setInterval(()=>refreshCatalog(),5*60*1000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCatalog();});
+

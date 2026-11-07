@@ -4,22 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#172b29">
-  <meta name="description" content="서울·경기·온라인 IT 해커톤, 부트캠프, 공모전을 분야별로 찾고 마감일과 참가 조건을 한눈에 확인하세요.">
-  <title>다음 기회 — IT 활동 탐색</title>
+  <meta name="description" content="IT 해커톤·부트캠프·공모전과 산업기능요원 채용을 한곳에서. 회사별 조건, 근무지, 날짜별 변경 기록을 확인하세요.">
+  <title>다음 기회 — IT 활동과 채용</title>
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./careers.css">
   <script src="./app.js" type="module"></script>
 </head>
 <body>
   <a class="skip" href="#main">본문으로 건너뛰기</a>
   <header class="site-header"><div class="header-inner">
     <a class="brand" href="#/" aria-label="다음 기회 홈"><span class="brand-symbol">↗</span><span>다음 기회<span class="brand-sub">NEXT OPPORTUNITY</span></span></a>
-    <nav aria-label="주요 메뉴"><a href="#/all" class="nav-all">전체 공고</a><a href="#/saved" class="saved-link"><span aria-hidden="true">☆</span> 저장한 기회 <span id="saved-count">0</span></a></nav>
+    <nav aria-label="주요 메뉴"><a href="#/all" class="nav-all">활동 공고</a><a href="#/careers" class="nav-careers">산업기능요원 채용</a><a href="#/saved" class="saved-link"><span aria-hidden="true">☆</span> 저장한 활동 <span id="saved-count">0</span></a></nav>
   </div></header>
   <section id="update-status" class="update-status" aria-label="공고 자동 갱신 상태" hidden></section>
   <main id="main" tabindex="-1"><div class="loading" role="status">기회를 불러오고 있어요…</div></main>
-  <footer><div><strong>다음 기회</strong><span>작은 도전이, 다음 경험으로.</span></div><p id="footer-note">서울 · 경기 · 온라인의 IT 활동 모음</p><p class="footer-small">신청과 최종 자격 확인은 각 주최 기관의 공식 공고에서 진행하세요.</p></footer>
+  <footer><div><strong>다음 기회</strong><span>작은 도전이, 다음 경험으로.</span></div><p id="footer-note">서울 · 경기 · 온라인의 IT 활동 모음</p><p class="footer-small">신청과 최종 자격 확인은 각 기관·기업의 공식 공고에서 진행하세요.</p></footer>
   <dialog id="detail" aria-labelledby="detail-title"><div id="detail-body"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
+
