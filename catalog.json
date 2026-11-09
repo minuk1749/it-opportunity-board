@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-11-06",
-  "note": "2026-11-06 확인: 기존 37개 재검토 및 공식 모집·교육 사이트, 대학 공지, DAKER·Devpost·온오프믹스·씽유·링커리어·데브이벤트 등 보완 검색. 신규 10개, 기존 정보·조건·검증한계 변경 28개, 모집 종료 8개 및 지역조건 제외 1개. 휴학생·학기·카드 조건, 필수 행사 장소와 시각 미확정은 uncertain/caution으로 구분. 전체 행사 전수 목록은 아니며 일부 원문 접근 실패·이미지 요강은 확인 한계가 있습니다. 제주 항목의 closed는 지역조건 제외용이며 실제 모집종료를 뜻하지 않습니다.",
+  "verifiedAt": "2026-11-09",
+  "note": "2026-11-09 확인: 기존 47개 상태 검토, 활성 공고 원문 재조회 및 공식·대학 공지, DAKER/데이콘, Devpost, 링커리어, 위비티, 씽굿, 씽유, 온오프믹스, 데브이벤트 보완 검색. 신규 9개. 새싹 헬스케어 11/22 연장, 매경 AI 광고 접수 시작 확인. 원문 접근 실패 6개는 이전 확인일·자료 유지 및 uncertain/caution 표시. 일부 신규는 모집 플랫폼·검색 색인에 의존하며 휴학생·필수 참석·팀 상한은 확인 필요. 모든 행사 전수조사를 뜻하지 않음. MAWD는 연장 마감일 미확인으로 기존 기한 경과 처리, 제주 항목은 지역조건 제외 상태 유지.",
   "items": [
     {
       "id": "oba-run",
@@ -38,7 +38,7 @@
         "ai"
       ],
       "deadline": "2026-11-06",
-      "deadlineTime": "24:00 KST (11/7 00:00)",
+      "deadlineTime": "18:00 KST",
       "location": "서울 · 드림플러스 강남",
       "mode": "offline",
       "eligibility": "만 18세 이상이며 서울 본선 현장 참석 가능자. 소속 대학·학년·졸업·재학 제한 없음으로 휴학생 지원 가능.",
@@ -46,7 +46,7 @@
       "team": "1–6인 · 팀 매칭 없음",
       "period": "11.19 13:00–11.20 12:00",
       "cost": "무료",
-      "caution": "",
+      "caution": "11월 9일 공식 공고에서 11/6 18:00 마감 확인. 이전 24:00 표기를 정정.",
       "uncertain": false,
       "sources": [
         {
@@ -54,8 +54,8 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
-      "status": "open"
+      "lastVerifiedAt": "2026-11-09",
+      "status": "closed"
     },
     {
       "id": "mawd",
@@ -68,14 +68,14 @@
       ],
       "deadline": "2026-11-07",
       "deadlineTime": "23:59 KST · 모집 플랫폼 기준",
-      "location": "서울 · 성수",
+      "location": "서울 · 강남구 역삼동 799-25 5층",
       "mode": "offline",
       "eligibility": "대학생 대상 · 휴학생 가능 여부 확인 필요",
       "summary": "AI 자동화로 ‘1인 기업’을 구상하고 기획·마케팅·디자인·개발을 연결해 서비스를 만들어요.",
       "team": "공고 확인",
-      "period": "11.14 시작 · 상세 일정 확인 필요",
+      "period": "2026.11.14 16:40–11.15 06:30",
       "cost": "공고 확인",
-      "caution": "11월 6일 Luma 신청은 승인제로 표시. 휴학생·팀 인원·참가비 및 접수 마감 11/7 23:59는 공식 본문에서 재확인되지 않음. 본문에 1박2일/1day 표기가 혼재하여 종료 일정 확인 필요.",
+      "caution": "기존 11/7 마감일 경과로 활성 제외. 11/9 공식 Luma에 승인제 신청 버튼이 있으나 연장 마감일은 미공개. 휴학생·팀 상한·참가비 및 추가 접수 여부 확인 필요.",
       "uncertain": true,
       "sources": [
         {
@@ -83,8 +83,8 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
-      "status": "open"
+      "lastVerifiedAt": "2026-11-09",
+      "status": "closed"
     },
     {
       "id": "seoul-youth-ai",
@@ -139,7 +139,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "upcoming"
     },
     {
@@ -171,7 +171,7 @@
           "label": "모집 일정 안내"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -203,7 +203,7 @@
           "label": "공식 참가 규정"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -371,7 +371,7 @@
           "label": "공식 최신 모집·FAQ"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -407,7 +407,7 @@
           "label": "모집문 안내 신청폼"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -420,7 +420,7 @@
         "cloud"
       ],
       "deadline": "2026-11-15",
-      "deadlineTime": "23:59 KST",
+      "deadlineTime": "마감 시각 확인 필요 · 기존 안내 23:59 KST, 공식 본문 미명시",
       "location": "온라인 + 경기 · 판교",
       "mode": "hybrid",
       "eligibility": "카드 발급 가능 및 평일 09–18시 전일 참여 가능자. 공식 FAQ는 4년제 2학년 이수 후 신청 가능 안내. 휴학생은 카드 발급·과정별 심사 필요.",
@@ -428,7 +428,7 @@
       "team": "공고 확인",
       "period": "풀스택 2026.12.28–2027.06.29 · 다른 트랙 공고 확인",
       "cost": "국민내일배움카드 · 자부담 60만 원",
-      "caution": "공식 풀스택 페이지 상단에는 과거 2~3월 접수·5~11월 교육이, FAQ에는 12/28~6/29 교육이 혼재. 기존 11/15 23:59 모집일은 이번 공식 페이지에서 확정하지 못해 이전 값 보존. 5기 지원 일정 확인 필요.",
+      "caution": "11월 9일 공식 지원일정에서 10/19~11/15 및 교육 12/28~6/29 확인. 상단에 이전 기수 날짜가 혼재. 휴학생 카드 발급·전일 참석 및 트랙별 심사 확인 필요.",
       "uncertain": true,
       "sources": [
         {
@@ -440,7 +440,7 @@
           "label": "공식 과정·지원 FAQ"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -468,7 +468,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -496,7 +496,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -506,7 +506,7 @@
       "fields": [
         "ai"
       ],
-      "deadline": "2026-11-08",
+      "deadline": "2026-11-22",
       "deadlineTime": "마감 시각 미공개",
       "location": "서울 · 영등포",
       "mode": "offline",
@@ -515,7 +515,7 @@
       "team": "개인 지원 · 교육 중 팀 프로젝트 인원은 과정별 확인",
       "period": "2026.11.30–2027.03.10 · 476시간",
       "cost": "교육비 무료 · 예치금 및 반환 기준은 과정별 확인",
-      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음.",
+      "caution": "11월 9일 공식 모집기간에서 11/8→11/22 연장 확인. 휴학생·잔여 학기·수료 직후 취업 요건 및 카드·예치금 조건은 기관 확인 필요.",
       "uncertain": true,
       "sources": [
         {
@@ -523,12 +523,12 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
       "id": "sesac-aws",
-      "name": "SeSAC · AWS AI 클라우드",
+      "name": "SeSAC · AWS 클라우드 AI 기초",
       "category": "bootcamp",
       "fields": [
         "cloud",
@@ -551,7 +551,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -579,7 +579,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -599,7 +599,7 @@
       "team": "개인 지원 · 교육 중 팀 프로젝트 인원은 과정별 확인",
       "period": "2026.12.07–2027.03.20",
       "cost": "교육비 무료 · 예치금 및 반환 기준은 과정별 확인",
-      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음.",
+      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음. 11월 9일 재검증 한계: 공식 게시글·개별 과정 접근 실패. 이전 확인일·자료 보존.",
       "uncertain": true,
       "sources": [
         {
@@ -643,7 +643,7 @@
           "label": "공식 모집요강 재확인"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -663,7 +663,7 @@
       "team": "개인 지원 · 교육 중 팀 프로젝트 인원은 과정별 확인",
       "period": "의료 AI 2026.12.17–2027.06.11 / MD 12.21–03.11",
       "cost": "교육비 무료 · 예치금 및 반환 기준은 과정별 확인",
-      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음.",
+      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음. 11월 9일 재검증 한계: 공식 게시글·개별 과정 접근 실패. 이전 확인일·자료 보존.",
       "uncertain": true,
       "sources": [
         {
@@ -707,7 +707,7 @@
           "label": "공식 모집요강 재확인"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -739,7 +739,7 @@
           "label": "공식 모집요강 재확인"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -759,7 +759,7 @@
       "team": "개인 지원 · 교육 중 팀 프로젝트 인원은 과정별 확인",
       "period": "2026.12.21–2027.05.12",
       "cost": "교육비 무료 · 예치금 및 반환 기준은 과정별 확인",
-      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음.",
+      "caution": "모집 일정 확인. 휴학생·잔여 학기 허용 및 수료 직후 취업 요건, 거주 증빙은 과정별 선발기관 확인 필요. 내일배움카드 필요 여부는 해당 요강에 명시적으로 확인되지 않음. 11월 9일 재검증 한계: 공식 개별 과정 접근 실패. 이전 확인일·자료 보존.",
       "uncertain": true,
       "sources": [
         {
@@ -799,7 +799,7 @@
           "label": "공식 모집요강 재확인"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -828,7 +828,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -875,7 +875,7 @@
       "team": "공고 확인",
       "period": "11.10–12.08 · 결과물 제출 12.01–08",
       "cost": "모집문 참가비 0원 안내 · 내일배움카드 및 KDT 미수강 조건",
-      "caution": "대학 공지로 일정 확인. 휴학생 명시·졸업 잔여학기·교육 이력 및 카드 자격 개별 확인 필요.",
+      "caution": "대학 공지로 일정 확인. 휴학생 명시·졸업 잔여학기·교육 이력 및 카드 자격 개별 확인 필요. 11월 9일 기존 접수 마감일 경과로 closed 처리. 연장 모집 확인되지 않음.",
       "uncertain": true,
       "sources": [
         {
@@ -884,7 +884,7 @@
         }
       ],
       "lastVerifiedAt": "2026-11-06",
-      "status": "open"
+      "status": "closed"
     },
     {
       "id": "k-awards",
@@ -904,7 +904,7 @@
       "team": "개인 또는 팀 · 4인 이하 권장",
       "period": "세부 일정은 공고 확인",
       "cost": "무료",
-      "caution": "휴학생 참가 가능 공식 FAQ 확인. 12/22 시상식 장소 및 필수 참석 여부는 확인 필요.",
+      "caution": "휴학생 참가 가능 공식 FAQ 확인. 12/22 시상식 장소 및 필수 참석 여부는 확인 필요. 11월 9일 재검증 한계: 공식 사이트 시간초과. 이전 확인일·자료 보존.",
       "uncertain": true,
       "sources": [
         {
@@ -943,7 +943,7 @@
           "label": "모집 안내"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -971,7 +971,7 @@
           "label": "공고 · 신청 페이지"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -990,7 +990,7 @@
       "team": "공고 확인",
       "period": "세부 일정은 공고 확인",
       "cost": "공고 확인",
-      "caution": "11월 6일 공식 BIPA 출처 502로 재검증 불가. 기존 공고·확인일 유지. 데브이벤트에는 전국 만19세 이상·온라인·무료로 안내되지만 시상 필수 참석 여부와 마감 시각 공식 확인 필요.",
+      "caution": "11월 6일 공식 BIPA 출처 502로 재검증 불가. 기존 공고·확인일 유지. 데브이벤트에는 전국 만19세 이상·온라인·무료로 안내되지만 시상 필수 참석 여부와 마감 시각 공식 확인 필요. 11월 9일 재검증 한계: 공식 BIPA 시간초과. 데브이벤트는 11/13 23:30·온라인·전국 만19세 이상·무료 안내, 공식 마감 시각·시상 참석 의무 확인 필요. 이전 확인일·자료 보존.",
       "uncertain": true,
       "sources": [
         {
@@ -1034,7 +1034,7 @@
           "label": "공식 일정·필수 발표"
         }
       ],
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "status": "open"
     },
     {
@@ -1085,7 +1085,7 @@
       "team": "1–3인",
       "period": "대표자 오프라인 행사 2027.01.08 · 결선 2027.02",
       "cost": "공고 확인",
-      "caution": "11월 6일 공식 페이지 직접 열기 404. 기존 자료·확인일 보존. 공식 검색 색인과 대학 안내는 12/21 10:00 및 누구나 1–3인 확인. 보완자료에는 서울 강남 헥토 사옥으로 안내되나 필수 교육·결선 장소는 원문 복구 후 확인 필요.",
+      "caution": "11월 6일 공식 페이지 직접 열기 404. 기존 자료·확인일 보존. 공식 검색 색인과 대학 안내는 12/21 10:00 및 누구나 1–3인 확인. 보완자료에는 서울 강남 헥토 사옥으로 안내되나 필수 교육·결선 장소는 원문 복구 후 확인 필요. 11월 9일 재검증 한계: 공식 DAKER 원문 404. 이전 확인일·자료 보존.",
       "uncertain": true,
       "sources": [
         {
@@ -1105,9 +1105,9 @@
       "team": "1–4인",
       "period": "제출 2026-11-08 07:00 KST까지",
       "cost": "참가비 명시 확인 필요",
-      "caution": "한국을 별도 제외하는 조항은 확인되지 않음. 휴학생 학생 자격 및 상금 수령 조건은 운영자 확인 필요.",
+      "caution": "한국을 별도 제외하는 조항은 확인되지 않음. 휴학생 학생 자격 및 상금 수령 조건은 운영자 확인 필요. 11월 9일 기존 접수 마감일 경과로 closed 처리. 연장 모집 확인되지 않음.",
       "uncertain": true,
-      "status": "open",
+      "status": "closed",
       "lastVerifiedAt": "2026-11-06",
       "id": "next-byte-v5",
       "name": "Next Byte Hacks V5",
@@ -1141,7 +1141,7 @@
       "caution": "한국을 별도 제외하는 조항은 확인되지 않음. 휴학생 학생 자격 및 상금 수령 조건은 운영자 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "launchpad-2026",
       "name": "LaunchPad Hacks",
       "category": "hackathon",
@@ -1174,7 +1174,7 @@
       "caution": "한국을 별도 제외하는 조항은 확인되지 않음. 휴학생 학생 자격 및 상금 수령 조건은 운영자 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "safespace-2026",
       "name": "SafeSpace Hacks",
       "category": "hackathon",
@@ -1207,7 +1207,7 @@
       "caution": "필수 해외 방문 없음. 공식 개발 패키지·실행 규격 준수 및 영문 제출 요구 확인.",
       "uncertain": false,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "ugreen-ai-nas-2026",
       "name": "UGREEN Hackathon 2026 on AI NAS",
       "category": "hackathon",
@@ -1240,7 +1240,7 @@
       "caution": "공식 개별 페이지에서 모집·교육 기간 확인. 상세 선발 자격·휴학생 허용·비용 조건 일부는 이미지/별도 요강으로 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "sesac-aws-advanced-2026",
       "name": "SeSAC · AWS 클라우드 AI 심화",
       "category": "bootcamp",
@@ -1262,13 +1262,13 @@
     },
     {
       "deadlineTime": "마감 시각 미공개",
-      "team": "개인 지원 · 팀 프로젝트 인원 과정별 확인",
+      "team": "개인 지원 · 교육 중 4–5인 PBL 팀",
       "period": "2026.12.14–2027.03.12 · 420시간",
       "cost": "새싹 무료 교육 · 예치금·반환 및 내일배움카드 필요 여부 과정별 확인",
       "caution": "공식 개별 페이지에서 모집·교육 기간 확인. 상세 선발 자격·휴학생 허용·비용 조건 일부는 이미지/별도 요강으로 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "sesac-gwangjin-ai-commerce-2026",
       "name": "SeSAC · AI 자동화 글로벌커머스",
       "category": "bootcamp",
@@ -1296,7 +1296,7 @@
       "caution": "공식 개별 페이지에서 모집·교육 기간 확인. 상세 선발 자격·휴학생 허용·비용 조건 일부는 이미지/별도 요강으로 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "sesac-gangdong-ai-content-2026",
       "name": "SeSAC · 생성형 AI 브랜드·숏폼",
       "category": "bootcamp",
@@ -1324,7 +1324,7 @@
       "caution": "공식 개별 페이지에서 모집·교육 기간 확인. 상세 선발 자격·휴학생 허용·비용 조건 일부는 이미지/별도 요강으로 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "sesac-gangdong-ai-pm-2026",
       "name": "SeSAC · 데이터 활용 AI PM",
       "category": "bootcamp",
@@ -1349,10 +1349,10 @@
       "team": "개인 또는 팀 · 인원 제한 없음",
       "period": "접수 11/9–30 · 투표 12/7–13 · 결과 12/16 · 시상 12/22",
       "cost": "학생·일반부 참가비 명시 확인 필요 · 기업부 20만원",
-      "caution": "시상식 장소와 필수 참석 여부 확인 필요. 수상작 저작권 양도 조항 확인.",
+      "caution": "11월 9일 공식 페이지 진행중·접수하기 표시 확인. 시상식 장소와 필수 참석 여부 확인 필요. 수상작 저작권 양도 조항 확인.",
       "uncertain": true,
-      "status": "upcoming",
-      "lastVerifiedAt": "2026-11-06",
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
       "id": "mk-ai-ad-2026",
       "name": "제3회 매경 AI 광고 공모전",
       "category": "contest",
@@ -1367,7 +1367,7 @@
       "summary": "브랜드별 과제를 AI 영상광고 또는 숏폼으로 제작합니다. 생성형 AI 활용 비중과 영상 규격을 지켜야 합니다.",
       "sources": [
         {
-          "label": "공식 공고·접수 예정",
+          "label": "공식 공고·접수",
           "url": "https://aimk.ai/"
         }
       ]
@@ -1380,7 +1380,7 @@
       "caution": "공식 홈페이지에서 연장된 11/15 마감 확인(일부 보완 공고에는 과거 10/31). 시상식 필수 참석·팀 인원 및 부문 구분 확인 필요.",
       "uncertain": true,
       "status": "open",
-      "lastVerifiedAt": "2026-11-06",
+      "lastVerifiedAt": "2026-11-09",
       "id": "meta-ai-festival-2026",
       "name": "Meta와 함께하는 AI 페스티벌",
       "category": "contest",
@@ -1407,6 +1407,302 @@
           "url": "https://aichallenge4all.or.kr/competitions"
         }
       ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "category": "hackathon",
+      "mode": "online",
+      "location": "한국에서 온라인 참여 · 필수 해외 방문 요건 없음",
+      "cost": "참가 무료 · 개발 도구·인프라 추가 비용은 개별 확인",
+      "team": "개인 또는 팀 · 상한 인원 미명시(확인 필요)",
+      "eligibility": "거주국 성년. 한국은 공식 제외국에 포함되지 않음. 학교·학년·졸업 제한 없어 휴학생 참가 가능.",
+      "caution": "영문 또는 영어 번역 제출 필요. 팀 상한 인원 확인 필요.",
+      "id": "learn-ar-specs-2026",
+      "name": "Learn AR with SPECS",
+      "fields": [
+        "ai",
+        "web",
+        "product"
+      ],
+      "deadline": "2026-11-10",
+      "deadlineTime": "07:00 KST (11/9 17:00 EST)",
+      "period": "제출 ~11/10 07:00 KST · 결과 11/19 전후(미국 동부시간)",
+      "summary": "AI 코딩 도구와 Lens Studio로 AR 안경용 앱을 만드는 온라인 해커톤입니다. 실제 안경 없이 노트북 미리보기로 개발할 수 있습니다.",
+      "sources": [
+        {
+          "label": "공식 공고·신청",
+          "url": "https://learn-specs.devpost.com/"
+        },
+        {
+          "label": "공식 참가 규정",
+          "url": "https://learn-specs.devpost.com/rules"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "category": "hackathon",
+      "mode": "online",
+      "location": "한국에서 온라인 참여 · 필수 해외 방문 요건 없음",
+      "cost": "참가 무료 · 개발 도구·인프라 추가 비용은 개별 확인",
+      "team": "개인 또는 2인 이상 팀·단체 · 상한 미명시",
+      "eligibility": "만18세 이상이며 거주국 성년. 한국은 공식 제외국 아님. 학교·학년·졸업 제한 없어 휴학생 가능. 제출 대표자는 제출 시점까지 Meta VR Start 회원이어야 함.",
+      "caution": "Start 회원 승인과 개발자 계정 필요. 영문 제출·팀 상한 확인 필요. 온라인 제출·심사로 해외 방문 의무 없음.",
+      "id": "meta-vr-start-2026",
+      "name": "Meta VR Start Developer Competition 2026",
+      "fields": [
+        "web",
+        "hardware",
+        "product"
+      ],
+      "deadline": "2026-11-19",
+      "deadlineTime": "05:00 KST (11/18 12:00 PST)",
+      "period": "제출 ~11/19 05:00 KST · 결과 12/11 전후(미국 태평양시간)",
+      "summary": "Meta VR 기기의 게임·엔터테인먼트·생산성 앱을 제작하거나 기존 앱을 크게 개선합니다. 손으로 조작 가능한 VR/MR 경험이 필수입니다.",
+      "sources": [
+        {
+          "label": "공식 공고·신청",
+          "url": "https://start-developer-competition-26.devpost.com/"
+        },
+        {
+          "label": "공식 참가 규정",
+          "url": "https://start-developer-competition-26.devpost.com/rules"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "category": "hackathon",
+      "mode": "online",
+      "location": "한국에서 온라인 참여 · 필수 해외 방문 요건 없음",
+      "cost": "참가 무료 · 개발 도구·인프라 추가 비용은 개별 확인",
+      "team": "개인 또는 최대 3인 팀·단체",
+      "eligibility": "거주국 성년. 한국은 공식 제외국에 포함되지 않음. 학교·학년·졸업 제한 없어 휴학생 참가 가능.",
+      "caution": "일반상은 휴학생 지원 가능. 학생 특별상은 수업 수강·현재 등록 증빙 요구로 휴학생 인정 여부 별도 확인. 영문 제출 필요.",
+      "id": "kiroween-2026",
+      "name": "Kiroween 2026",
+      "fields": [
+        "ai",
+        "web",
+        "product"
+      ],
+      "deadline": "2026-12-05",
+      "deadlineTime": "07:00 KST (12/4 14:00 PST)",
+      "period": "제작 10/30~12/4(미국 태평양시간) · 결과 2027.2/3 전후",
+      "summary": "Kiro를 활용해 동작하는 신규 소프트웨어를 제작하는 해커톤입니다. 공개 GitHub 저장소와 데모, Kiro 활용 설명을 제출합니다.",
+      "sources": [
+        {
+          "label": "공식 공고·신청",
+          "url": "https://kiroween.devpost.com/"
+        },
+        {
+          "label": "공식 참가 규정",
+          "url": "https://kiroween.devpost.com/rules"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "category": "hackathon",
+      "mode": "online",
+      "location": "한국에서 온라인 참여 · 필수 해외 방문 요건 없음",
+      "cost": "참가 무료 · 개발 도구·인프라 추가 비용은 개별 확인",
+      "team": "개인 또는 팀 · 상한 인원 미명시(확인 필요)",
+      "eligibility": "공식 규정 만18세 이상, 페이지는 거주국 성년 안내. 한국은 제외국에 포함되지 않음. 소속대학·학년·졸업 제한 없어 성년 휴학생 가능.",
+      "caution": "영문 또는 영어 번역 제출 필요. 팀 상한 인원 확인 필요.",
+      "id": "qnx-global-2026",
+      "name": "QNX Global Hackathon",
+      "fields": [
+        "hardware",
+        "ai",
+        "web"
+      ],
+      "deadline": "2026-12-16",
+      "deadlineTime": "04:00 KST (12/15 14:00 EST)",
+      "period": "제작·제출 11/2~12/15(미국 동부시간) · 결과 2027.2/4 전후",
+      "summary": "QNX 8.0용 앱·드라이버·개발 도구·오픈소스 포팅을 제작합니다. 실물 장비 대신 QEMU 에뮬레이터를 사용할 수 있습니다.",
+      "sources": [
+        {
+          "label": "공식 공고·신청",
+          "url": "https://qnx.devpost.com/"
+        },
+        {
+          "label": "공식 참가 규정",
+          "url": "https://qnx.devpost.com/rules"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "category": "hackathon",
+      "mode": "online",
+      "location": "한국에서 온라인 참여 · 필수 해외 방문 요건 없음",
+      "cost": "참가 무료 · 개발 도구·인프라 추가 비용은 개별 확인",
+      "team": "개인 또는 팀 · 상한 인원 미명시(확인 필요)",
+      "eligibility": "거주국 성년. 한국은 공식 제외국에 포함되지 않음. 학교·학년·졸업 제한 없어 휴학생 참가 가능.",
+      "caution": "영문 또는 영어 번역 제출 필요. 팀 상한 인원 확인 필요.",
+      "id": "codegeist-2026",
+      "name": "Atlassian Codegeist 2026",
+      "fields": [
+        "ai",
+        "cloud",
+        "web"
+      ],
+      "deadline": "2026-12-23",
+      "deadlineTime": "05:00 KST (12/22 12:00 PST)",
+      "period": "제작·제출 10/27~12/22(미국 태평양시간) · 결과 2027.2/15 전후",
+      "summary": "Forge로 Jira·Confluence·Rovo 등 Atlassian 제품과 연동하는 앱을 개발합니다. 팀의 업무·지식·의사결정을 개선하는 서비스가 주제입니다.",
+      "sources": [
+        {
+          "label": "공식 공고·신청",
+          "url": "https://codegeist2026.devpost.com/"
+        },
+        {
+          "label": "공식 참가 규정",
+          "url": "https://codegeist2026.devpost.com/rules"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "id": "digiman-korec-2026",
+      "name": "DigiMan × KOREC 채용연계형 해커톤",
+      "category": "hackathon",
+      "fields": [
+        "ai",
+        "web",
+        "product"
+      ],
+      "deadline": "2026-11-11",
+      "deadlineTime": "23:59 KST",
+      "location": "온라인 킥오프 + 서울 신촌 인근 본선",
+      "mode": "hybrid",
+      "eligibility": "전공 무관, 2027년 또는 2028년 입사 희망자로 프로덕트·서비스 개발/학습 경험 보유자. 일본어 실력 무관. 휴학생·졸업 시점 조건과 연령 제한은 확인 필요.",
+      "summary": "일본 IT 기업의 AI 프로덕트·비즈니스 엔지니어·디자이너 채용 연계 해커톤입니다. 상위 입상자는 서류전형 없이 채용 면접 기회를 받습니다.",
+      "team": "개인/팀 참가 형태 및 팀 인원 확인 필요",
+      "period": "11/20 20:00–21:00 온라인 킥오프 · 11/29 10:00–20:00 서울 본선",
+      "cost": "참가비 확인 필요 · 교통비 지원 예정",
+      "caution": "씽유 모집요강으로 일정·서울 개최 확인. 주관사 네이버 카페와 신청폼 원문 접근 실패. 휴학생·졸업조건·팀 구성은 주관사 확인 필요. 해커톤의 해외 필참 안내는 없으나 이후 채용근무지는 별개.",
+      "sources": [
+        {
+          "label": "주관사 공고",
+          "url": "https://cafe.naver.com/koreccafe/13755"
+        },
+        {
+          "label": "공고 안내 신청폼",
+          "url": "https://forms.gle/t2cvRzzpKZmyykVY7"
+        },
+        {
+          "label": "보완 모집요강",
+          "url": "https://thinkyou.co.kr/mobile/extAct/67994/?page=1&pagesize=&searchstr=&serdivision=&serfield=6&seritem=0&serprizeMoney=&serstatus=&sertarget="
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "id": "ai-smartworkthon-2026",
+      "name": "2026 AI 스마트워크톤",
+      "category": "hackathon",
+      "fields": [
+        "ai",
+        "product",
+        "web"
+      ],
+      "deadline": "2026-11-15",
+      "deadlineTime": "23:59 KST · 온오프믹스 공고 기준",
+      "location": "서울 · 금천구 G밸리 기업시민청 6층",
+      "mode": "offline",
+      "eligibility": "일반 참가자·대학생 대상. 휴학생 학생요금 인정, 소속대학·거주지·연령·학년·졸업 제한은 상세 요강 확인 필요.",
+      "summary": "기업의 실제 업무 과제를 AI로 해결하는 당일 제작형 경진대회입니다. 초급·중고급 트랙을 선택하며 사전 결과물 제출 없이 진행합니다.",
+      "team": "개인 또는 팀 · 상한 인원 확인 필요",
+      "period": "2026.11.20 09:30–17:00",
+      "cost": "대학생 무료 · 일반 참가 5만원 · 휴학생 무료 인정 확인 필요",
+      "caution": "개설자 온오프믹스 검색 색인에서 일정·장소·비용 확인. 원문 직접 열기 제한으로 신청 링크·세부 자격·팀 인원 확인 한계.",
+      "sources": [
+        {
+          "label": "개설자 모집 공고·외부신청 안내",
+          "url": "https://onoffmix.com/event/353036"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "id": "dongguk-ai-hrd-2026",
+      "name": "동국대 · AI 바이브코딩 HRD 에듀테크 부트캠프",
+      "category": "bootcamp",
+      "fields": [
+        "ai",
+        "web",
+        "product"
+      ],
+      "deadline": "2026-11-12",
+      "deadlineTime": "마감 시각 미공개 · 정원 충족 시 조기마감",
+      "location": "서울 · 동국대학교 서울캠퍼스 학술관",
+      "mode": "offline",
+      "eligibility": "취업을 앞둔 서울 거주 미취업 청년 구직자·전공 무관. 소속 대학 제한 명시 없음. 휴학생 허용, 청년 연령 범위, 학년·졸업 잔여학기 조건은 확인 필요.",
+      "summary": "AI로 학습도구·교육 콘텐츠·자동화 서비스를 구현하는 400시간 과정입니다. 실무 프로젝트로 취업 포트폴리오를 완성합니다.",
+      "team": "개인 지원 · 정원 20명 안내 · 프로젝트 팀 인원 확인 필요",
+      "period": "2026.11.16–2027.01.26 · 50일/400시간 · 주5일 09:00–18:00",
+      "cost": "교육비 전액 무료(서울 거주 청년) · 내일배움카드·예치금 요구 여부 미명시",
+      "caution": "11/4자 동국대 공식 공고의 11/12 마감을 우선 적용. 과정 사이트에는 과거 11/2, 플랫폼에는 11/15가 혼재. 비졸업예정 휴학생 허용·잔여학기·카드 조건은 운영기관 확인 필요.",
+      "sources": [
+        {
+          "label": "주관대학 최신 모집 공고",
+          "url": "https://www.dongguk.edu/article/GENERALNOTICES/detail/26766880"
+        },
+        {
+          "label": "공식 과정·신청",
+          "url": "https://ai-academy.co.kr/ai-hrd/"
+        }
+      ]
+    },
+    {
+      "status": "open",
+      "lastVerifiedAt": "2026-11-09",
+      "uncertain": true,
+      "id": "dongguk-physical-ai-2026",
+      "name": "동국대 · 피지컬 AI Vision Edge 부트캠프",
+      "category": "bootcamp",
+      "fields": [
+        "ai",
+        "hardware"
+      ],
+      "deadline": "2026-11-12",
+      "deadlineTime": "마감 시각 미공개 · 정원 충족 시 조기마감",
+      "location": "서울 · 동국대학교 서울캠퍼스 학술관",
+      "mode": "offline",
+      "eligibility": "취업을 앞둔 서울 거주 미취업 청년 구직자·전공 무관. 소속 대학 제한 명시 없음. 휴학생 허용, 청년 연령 범위, 학년·졸업 잔여학기 조건은 확인 필요.",
+      "summary": "컴퓨터비전·엣지 AI·로봇을 연결하는 400시간 실무 과정입니다. 동작 데모와 코드·기술문서를 갖춘 프로젝트를 제작합니다.",
+      "team": "개인 지원 · 정원 20명 안내 · 프로젝트 팀 인원 확인 필요",
+      "period": "2026.11.16–2027.01.26 · 50일/400시간 · 주5일 09:00–18:00",
+      "cost": "교육비 전액 무료(서울 거주 청년) · 내일배움카드·예치금 요구 여부 미명시",
+      "caution": "11/4자 동국대 공식 공고의 11/12 마감을 우선 적용. 과정 사이트에는 과거 11/2, 플랫폼에는 11/15가 혼재. 비졸업예정 휴학생 허용·잔여학기·카드 조건은 운영기관 확인 필요.",
+      "sources": [
+        {
+          "label": "주관대학 최신 모집 공고",
+          "url": "https://www.dongguk.edu/article/GENERALNOTICES/detail/26766880"
+        },
+        {
+          "label": "공식 과정·신청",
+          "url": "https://ai-academy.co.kr/physical-ai/"
+        }
+      ]
     }
   ],
   "updateMode": "scheduled",
@@ -1416,8 +1712,16 @@
     "timeZone": "Asia/Seoul",
     "anchorAt": "2026-11-06T09:00:00+09:00"
   },
-  "lastResearchAt": "2026-11-06T00:33:18Z",
+  "lastResearchAt": "2026-11-09T01:03:57Z",
   "updateHistory": [
+    {
+      "date": "2026-11-09",
+      "kind": "research",
+      "summary": "신규 9개 · 변경 11개 · 마감일 경과 4개. 새싹 헬스케어 11/22 연장, 매경 접수 시작. 해외 온라인 5개·국내 해커톤 2개·동국대 교육 2개 추가. 원문 접근 실패 6개는 이전 확인일 유지. MAWD는 추가 접수 여부 확인 필요.",
+      "added": 9,
+      "changed": 11,
+      "closed": 4
+    },
     {
       "date": "2026-11-06",
       "kind": "research",
