@@ -79,3 +79,14 @@ The displayed next time is an approximate schedule derived from the saved three-
 
 산업기능요원 채용 화면은 별도의 careers.json과 CAREER-UPDATES.md를 사용합니다. 이 문서의 행사 조사는 catalog.json만 갱신하고 채용 회사·기록·일정은 수정하지 않습니다. 두 데이터 파일은 같은 사이트에서 각각의 조사 주기로 불러옵니다.
 
+
+## Token-efficient recurring execution
+
+Use this section for routine updates. Keep the full research scope and existing schedule.
+
+- Treat the current GitHub JSON as the durable baseline. Keep complete file contents and the blob SHA in code-mode variables. Print only the current research timestamp, a compact index of relevant items (id, name, category, status, deadline/time, lastVerifiedAt, source URLs), recent update summary and candidates needed for this run. Do not print the complete JSON, closed-item details, historical logs or website source into the model context. Read individual eligibility/detail fields when a candidate requires comparison.
+- Search for new announcements broadly on every run. For existing items, prioritize imminent deadlines, uncertain conditions and changed announcements, then check the remaining active items. Retired cohorts only need revisiting when a new edition or reopening is discovered. Keep actual per-item verification dates and disclose coverage gaps.
+- Maintain one complete in-memory baseline and apply explicit additions and field changes by stable id. Serialize the merged object programmatically once. Preserve existing records, optional fields and history. Do not retype or regenerate unchanged records. This also applies to the write payload.
+- Validate the merged object with the existing validator. After writing, retain the read-back contents in code mode and compare the complete expected object or a content digest, plus research date and history entry. Print only verification results and the commit URL.
+- Put the complete active list and history on the website. Final notification is at most six short lines with the research date, added/changed/closed counts, a few material changes, site URL, commit URL and any blocker or coverage limit. If there are no material changes, say so briefly. Do not repeat the full active table in chat.
+- The website's five-minute data refresh is a public JSON fetch. It does not start a new AI research run.
