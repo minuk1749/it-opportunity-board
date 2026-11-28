@@ -39,11 +39,15 @@ export function validateCareers(data) {
   if(JSON.stringify(data).includes('\ufffd'))fail('encoding');
   return data;
 }
+export const regionGroups = {
+  '부산권': ['부산', '김해', '양산', '창원', '울산'],
+  '대구권': ['대구', '경산', '영천', '칠곡', '구미', '청도'],
+};
 export function selectCompanies(data,{view='all',query='',status='',region='',stack='',sort='priority',saved=new Set()}={}) {
   const q=query.trim().toLocaleLowerCase();
   return data.companies.filter(c=>
     (view!=='candidates'||c.candidate)&&(view!=='saved'||saved.has(c.id))&&
-    (!status||c.status===status)&&(!region||c.region.startsWith(region))&&
+    (!status||c.status===status)&&(!region||(regionGroups[region]||[region]).some(city=>c.region.includes(city)))&&
     (!stack||(stack==='java'?/java|spring|kotlin/i.test(c.stack):stack==='node'?/node|nest|typescript|express/i.test(c.stack):/C\+\+|C#|C\/C|게임|보안|OS|Python|QA|SE\b/i.test(c.stack+' '+c.role)))&&
     (!q||[c.name,c.region,c.role,c.stack,c.eligibility,c.military,c.note].join(' ').toLocaleLowerCase().includes(q))
   ).sort((a,b)=>sort==='name'?a.name.localeCompare(b.name,'ko'):sort==='checked'?b.checked.localeCompare(a.checked)||a.name.localeCompare(b.name,'ko'):careerStatuses.indexOf(a.status)-careerStatuses.indexOf(b.status)||b.checked.localeCompare(a.checked)||a.name.localeCompare(b.name,'ko'));
